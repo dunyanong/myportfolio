@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { useRouter } from 'next/router';
 import FullScreenNavbar from '../components/FullScreenNavbar';
+import Link from "next/link";
 
 const Notfound = () => {
     const route = useRouter();
