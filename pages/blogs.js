@@ -62,71 +62,65 @@ const Blogs = () => {
               <hr class="w-48 h-1 mx-auto mb-4 bg-gray-100 border-0 rounded my-6 md:my-10 dark:bg-gray-700"></hr>
             </div>            
 
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8">
-              <a href="https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448" target="_blank">
-                <Image src={nonTechnicalBlog} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
-                <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                  <div className="mb-8">
-                    <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
-                      For laymen
-                    </p>
-                    <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Non-technical lessons I discovered since I taught myself to program.</div>
-                    <p className="text-gray-600 dark:text-gray-300 text-xs">As a self-taught programmer, I've learned that some of the most valuable lessons go beyond just understanding code. In my latest blog post, I share the top non-technical skills that have helped me succeed in my career as a programmer.</p>
-                  </div>
-                  <div className="flex items-center">
-                    <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
-                    <div className="text-sm">
-                      <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                      <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                    </div>
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448" target="_blank">
+              <Image src={nonTechnicalBlog} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
+              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                    For laymen
+                  </p>
+                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Non-technical lessons I discovered since I taught myself to program.</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs">As a self-taught programmer, I've learned that some of the most valuable lessons go beyond just understanding code. In my latest blog post, I share the top non-technical skills that have helped me succeed in my career as a programmer.</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
+                  <div className="text-sm">
+                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
+                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
                   </div>
                 </div>
-              </a>              
-            </div> 
+              </div>
+            </a> 
 
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8">
-              <a href="https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6" target="_blank">
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6" target="_blank">
                 <Image src={beginner} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
-                <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                  <div className="mb-8">
-                    <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
-                      For laymen
-                    </p>
-                    <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Starting to learn how to program? Read this first.</div>
-                    <p className="text-gray-600 dark:text-gray-300 text-xs">Are you ready to start your programming journey? Make sure you're off to a great start with our guide on what you need to know before you start coding. Click here to read now!</p>
-                  </div>
-                  <div className="flex items-center">
-                    <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
-                    <div className="text-sm">
-                      <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                      <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                    </div>
-                  </div>
-                </div>                
-              </a>              
-            </div>  
-              
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8">
-              <a href="https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2" target="_blank">
-                <Image src={api} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
-                <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                  <div className="mb-8">
-                    <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
-                      For laymen
-                    </p>
-                    <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">API explained for a 5-year-old.</div>
-                    <p className="text-gray-600 dark:text-gray-300 text-xs">Want to learn about APIs in an easy-to-understand way? Our guide explains the concept in simple terms that even a 5-year-old can grasp.</p>
-                  </div>
-                  <div className="flex items-center">
-                    <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
-                    <div className="text-sm">
-                      <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                      <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                    </div>
+              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                    For laymen
+                  </p>
+                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Starting to learn how to program? Read this first.</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs">Are you ready to start your programming journey? Make sure you're off to a great start with our guide on what you need to know before you start coding. Click here to read now!</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
+                  <div className="text-sm">
+                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
+                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
                   </div>
                 </div>
-              </a>              
-            </div>                            
+              </div>
+            </a>  
+              
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2" target="_blank">
+                <Image src={api} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
+              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                    For laymen
+                  </p>
+                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">API explained for a 5-year-old.</div>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs">Want to learn about APIs in an easy-to-understand way? Our guide explains the concept in simple terms that even a 5-year-old can grasp.</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
+                  <div className="text-sm">
+                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
+                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
+                  </div>
+                </div>
+              </div>
+            </a>                            
             <Footer />
         </section>
       </main>
