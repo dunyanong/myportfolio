@@ -62,7 +62,7 @@ const Blogs = () => {
               <hr class="w-48 h-1 mx-auto mb-4 bg-gray-100 border-0 rounded my-6 md:my-10 dark:bg-gray-700"></hr>
             </div>            
 
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8 ">
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448" target="_blank">
               <Image src={nonTechnicalBlog} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -80,9 +80,9 @@ const Blogs = () => {
                   </div>
                 </div>
               </div>
-            </div> 
+            </a> 
 
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8">
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6" target="_blank">
                 <Image src={beginner} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -100,9 +100,10 @@ const Blogs = () => {
                   </div>
                 </div>
               </div>
-            </div>  
+            </a>  
               
-            <div className="max-w-sm w-full md:max-w-full md:flex my-8">
+
+            <a className="max-w-sm w-full md:max-w-full md:flex my-8" href="https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2" target="_blank">
                 <Image src={api} className="h-48 md:h-auto md:w-48 flex-none bg-cover rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden"/>
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -120,14 +121,7 @@ const Blogs = () => {
                   </div>
                 </div>
               </div>
-            </div>                            
-
-
-
-
-
-
-
+            </a>                            
             <Footer />
         </section>
       </main>
