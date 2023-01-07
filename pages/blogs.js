@@ -110,7 +110,7 @@ const Blogs = () => {
                     For laymen
                   </p>
                   <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">API explained for a 5-year-old.</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs">Want to learn about APIs in an easy-to-understand way? Our guide explains the concept in simple terms that even a 5-year-old can grasp.</p>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs">Want to know the secret behind how apps and websites work together seamlessly? It's all thanks to APIs! Learn all about this exciting technology in our simple and easy-to-understand article, perfect for kids and beginners alike.</p>
                 </div>
                 <div className="flex items-center">
                   <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="Avatar of Jonathan Reinink" />
