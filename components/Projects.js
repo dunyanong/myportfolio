@@ -24,7 +24,7 @@ const Projects = () => {
             {/*Card 1*/}
             <div className="rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
             <a href="https://confessay.vercel.app/" target="_blank">
-            <Image src={Confessay} className="rounded-t-lg object-contain" />  
+            <Image src={Confessay} className="rounded-t-lg object-contain" alt="image" />  
             <div className="px-6 py-4">
                 <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Confessay</div>
                 <p className="text-gray-700 dark:text-gray-300 text-sm font-normal">

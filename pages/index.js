@@ -78,7 +78,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image src={profilePic} alt="image"/>
+            <Image src={profilePic} alt="image" priority/>
           </div>
         </section>
 
