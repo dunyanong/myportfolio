@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { useState } from "react";
-import { useEffect } from 'react';
+import { useState, useEffect } from "react";
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { useRouter } from 'next/router';
 import FullScreenNavbar from '../components/FullScreenNavbar';
@@ -8,7 +7,13 @@ import Link from "next/link";
 
 const Notfound = () => {
     const route = useRouter();
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(
+        typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("darkMode") || false) : false
+      );
+    
+    useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    }, [darkMode]);
     
     useEffect(() => {
         setTimeout(() => {
