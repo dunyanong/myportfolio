@@ -45,12 +45,12 @@ export default function Home() {
               </li>
               <li>
                   <Link href="/about" legacyBehavior>
-                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</span></a>
+                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">About</span></a>
                   </Link> 
               </li>
               <li>
                   <Link legacyBehavior href="/blogs">
-                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</span></a>
+                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Blogs</span></a>
                   </Link>               
               </li>
               </ul>
