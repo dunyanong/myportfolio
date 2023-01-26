@@ -40,17 +40,17 @@ export default function Home() {
               <ul className="flex justify-between gap-5">
               <li>
                   <Link href="/" legacyBehavior>
-                  <a className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</a>
+                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</span></a>
                   </Link> 
               </li>
               <li>
                   <Link href="/about" legacyBehavior>
-                  <a className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">About</a>
+                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</span></a>
                   </Link> 
               </li>
               <li>
                   <Link legacyBehavior href="/blogs">
-                  <a className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Blogs</a>
+                  <a><span className="text-lg font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</span></a>
                   </Link>               
               </li>
               </ul>
@@ -72,9 +72,9 @@ export default function Home() {
           </div>
 
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-slate-200">
-            <a href="https://twitter.com/dun_yan_" target="_blank"><AiFillTwitterCircle /></a>
-            <a href="https://www.linkedin.com/in/dun-yan-ong-b26aa5244/" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://github.com/dunyanong" target="_blank"><AiFillGithub /></a>
+            <a href="https://twitter.com/dun_yan_" target="_blank"><span><AiFillTwitterCircle /></span></a>
+            <a href="https://www.linkedin.com/in/dun-yan-ong-b26aa5244/" target="_blank"><span><AiFillLinkedin /></span></a>
+            <a href="https://github.com/dunyanong" target="_blank"><span><AiFillGithub /></span></a>
           </div>
 
           <div className="mx-auto rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
