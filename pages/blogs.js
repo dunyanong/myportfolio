@@ -4,10 +4,13 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'
 import Footer from '../components/Footer';
 import FullScreenNavbar from '../components/FullScreenNavbar';
 import Link from "next/link";
-import Image from 'next/image';
+
+// Blog Dataset
+import BlogData from '../data/BlogData';
+
 
 // images
-import medium from '../public/logo-img/medium.png';
+import { BlogList } from '../components/BlogList';
 
 const Blogs = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -63,81 +66,7 @@ const Blogs = () => {
             <div className='flex justify-center'>           
             <div className='md:w-3/4'>
 
-            <div className="my-5">
-            <a href="https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448" target="_blank">
-              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                <div className="inline-block items-center bg-cyan-100 dark:bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">For laymen</p></div>
-                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Non-technical lessons I discovered since I taught myself to program.</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs">As a self-taught programmer, I've learned that some of the most valuable lessons go beyond just understanding code. In my latest blog post, I share the top non-technical skills that have helped me succeed in my career as a programmer.</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="image" />
-                  <div className="text-sm">
-                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                  </div>
-                </div>
-              </div>
-            </a> 
-            </div>
-            
-            <div className="my-5">
-            <a href="https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6" target="_blank">
-              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                <div className="inline-block items-center bg-cyan-100 dark:bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">For laymen</p></div>
-                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">Starting to learn how to program? Read this first.</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs">Are you ready to start your programming journey? Make sure you're off to a great start with our guide on what you need to know before you start coding. Click here to read now!</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="image" />
-                  <div className="text-sm">
-                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                  </div>
-                </div>
-              </div>
-            </a>   
-            </div>
-
-            <div className="my-5" >
-            <a href="https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2" target="_blank">
-              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                <div className="inline-block items-center bg-cyan-100 dark:bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">For laymen</p></div>
-                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">API explained for a 5-year-old.</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs">Want to know the secret behind how apps and websites work together seamlessly? It's all thanks to APIs! Learn all about this exciting technology in our simple and easy-to-understand article, perfect for kids and beginners alike.</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="image" />
-                  <div className="text-sm">
-                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                    <p className="text-gray-600 dark:text-gray-300">December 2022</p>
-                  </div>
-                </div>
-              </div>
-            </a>   
-            </div>
-
-            <div className='my-5'>            
-            <a href="https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22" target="_blank">
-              <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                <div className="inline-block items-center bg-cyan-100 dark:bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">For laymen</p></div>
-                  <div className="text-lg font-semibold mb-2 text-gray-700 dark:text-white">React: The Pros and Cons of a Popular JavaScript Library</div>
-                  <p className="text-gray-600 dark:text-gray-300 text-xs"> In this article, we’ll take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it’s the right choice for you.</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-10 h-10 rounded-full mr-4" src={medium} alt="image" />
-                  <div className="text-sm">
-                    <p className="text-gray-600 dark:text-gray-300 leading-none">Medium</p>
-                    <p className="text-gray-600 dark:text-gray-300">January 2023</p>
-                  </div>
-                </div>
-              </div>
-            </a>  
-            </div>
+            <BlogList blogs={BlogData}/>
 
             </div> 
             </div>
