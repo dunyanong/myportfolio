@@ -8,10 +8,6 @@ import Image from 'next/image';
 
 // images
 import medium from '../public/logo-img/medium.png';
-import nonTechnicalBlog from '../public/blogs-img/nonTechnicalLessons.png';
-import beginner from '../public/blogs-img/beginner.png';
-import api from '../public/blogs-img/api.png'
-import reactproscons from '../public/blogs-img/reactproscons.png';
 
 const Blogs = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -67,7 +63,7 @@ const Blogs = () => {
             <div className='flex justify-center'>           
             <div className='md:w-3/4'>
 
-            <div className="my-3">
+            <div className="my-5">
             <a href="https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448" target="_blank">
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -86,7 +82,7 @@ const Blogs = () => {
             </a> 
             </div>
             
-            <div className="my-3">
+            <div className="my-5">
             <a href="https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6" target="_blank">
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -105,7 +101,7 @@ const Blogs = () => {
             </a>   
             </div>
 
-            <div className="my-3" >
+            <div className="my-5" >
             <a href="https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2" target="_blank">
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
@@ -124,7 +120,7 @@ const Blogs = () => {
             </a>   
             </div>
 
-            <div className='my-3'>            
+            <div className='my-5'>            
             <a href="https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22" target="_blank">
               <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
