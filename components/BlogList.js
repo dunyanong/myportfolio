@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import medium from '../public/logo-img/medium.png';
 
-const BlogCard = ({difficulty, title, description, platform, date, bloglink}) => (
+export const BlogCard = ({difficulty, title, description, platform, date, bloglink}) => (
   <div className="my-5">
   <a href={bloglink} target="_blank">
     <div className="border-r border-b border-l border-gray-200 md:border-l-0 md:border-t  rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200 rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
