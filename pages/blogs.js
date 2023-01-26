@@ -8,12 +8,16 @@ import Link from "next/link";
 // Blog Dataset
 import BlogData from '../data/BlogData';
 
-
-// images
-import { BlogList } from '../components/BlogList';
+// map the list of Blogs
+import SearchBar from '../components/SearchBar';
 
 const Blogs = () => {
   const [darkMode, setDarkMode] = useState(false);
+    const [filteredBlogs, setFilteredBlogs] = useState(BlogData);
+
+    const handleSearch = (filteredBlogs) => {
+      setFilteredBlogs(filteredBlogs);
+    };
   
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -66,7 +70,7 @@ const Blogs = () => {
             <div className='flex justify-center'>           
             <div className='md:w-3/4'>
 
-            <BlogList blogs={BlogData}/>
+            <SearchBar blogs={BlogData} onSearch={handleSearch} /> {/* pass the handleSearch function as a prop */}            
 
             </div> 
             </div>
