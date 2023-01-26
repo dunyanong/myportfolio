@@ -1,12 +1,18 @@
 import Head from 'next/head'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import Footer from '../../components/Footer';
 import FullScreenNavbar from '../../components/FullScreenNavbar';
 import Link from "next/link";
 
 const PersonalStatement = () => {
-    const [darkMode, setDarkMode] = useState(false);    
+  const [darkMode, setDarkMode] = useState(
+    typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("darkMode") || false) : false
+  );
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
     return (
     <div className={darkMode ? "dark" : ""}>
       <Head>

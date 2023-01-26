@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import Footer from '../components/Footer';
 import FullScreenNavbar from '../components/FullScreenNavbar';
@@ -12,12 +12,19 @@ import BlogData from '../data/BlogData';
 import SearchBar from '../components/SearchBar';
 
 const Blogs = () => {
-  const [darkMode, setDarkMode] = useState(false);
-    const [filteredBlogs, setFilteredBlogs] = useState(BlogData);
+  const [darkMode, setDarkMode] = useState(
+    typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("darkMode") || false) : false
+  );
 
-    const handleSearch = (filteredBlogs) => {
-      setFilteredBlogs(filteredBlogs);
-    };
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
+
+  const [filteredBlogs, setFilteredBlogs] = useState(BlogData);
+
+  const handleSearch = (filteredBlogs) => {
+    setFilteredBlogs(filteredBlogs);
+  };
   
   return (
     <div className={darkMode ? "dark" : ""}>

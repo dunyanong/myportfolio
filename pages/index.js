@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -14,7 +14,13 @@ import Link from "next/link";
 import profilePic from '../public/dunyanturkey.png';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("darkMode") || false) : false
+  );
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
 
   return (
     <div className={darkMode ? "dark" : ""}>
