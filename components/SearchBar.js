@@ -7,7 +7,9 @@ const SearchBar = ({ blogs }) => {
   const handleSearch = event => {
     setSearchQuery(event.target.value);
   };
-
+  
+  blogs.sort((a, b) => b.id - a.id);
+  
   const filteredBlogs = blogs.filter(blog => {
     return blog.title.toLowerCase().includes(searchQuery.toLowerCase());
   });
