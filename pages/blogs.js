@@ -61,7 +61,7 @@ const Blogs = () => {
           </div>
           <div className="navbar-end">
               <ul className="flex items-center">
-                <li><BsFillMoonStarsFill className="cursor-pointer text-slate-600 dark:text-slate-200" onClick={() => setDarkMode(!darkMode)}/></li>
+                <li><BsFillMoonStarsFill className="cursor-pointer text-slate-600 dark:text-slate-200 text-xl" onClick={() => setDarkMode(!darkMode)}/></li>
               </ul>
           </div>
           </nav>
