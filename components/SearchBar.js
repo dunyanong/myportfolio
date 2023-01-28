@@ -36,6 +36,7 @@ const SearchBar = ({ blogs }) => {
           description={blog.description}
           platform={blog.platform}
           date={blog.date}
+          image={blog.image}
           bloglink={blog.bloglink}
         />
         )
