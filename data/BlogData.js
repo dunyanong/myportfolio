@@ -1,5 +1,5 @@
-import Medium from '../public/logo-img/Medium.png';
-import Lamdatest from '../public/logo-img/Lambdatest.png';
+import Medium from './logo-img/Medium.png';
+import Lamdatest from './logo-img/Lambdatest.png'
 
 const BlogData = [
     {
