@@ -1,3 +1,6 @@
+import Medium from '../public/logo-img/Medium.png';
+import Lamdatest from '../public/logo-img/Lambdatest.png';
+
 const BlogData = [
     {
         id: 1,
@@ -6,6 +9,7 @@ const BlogData = [
         description: "As a self-taught programmer, I've learned that some of the most valuable lessons go beyond just understanding code. In my latest blog post, I share the top non-technical skills that have helped me succeed in my career as a programmer.",
         platform: 'Medium',
         date: 'December 2022',
+        image: Medium,
         bloglink: "https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448"
     },
     {
@@ -15,6 +19,7 @@ const BlogData = [
         description: "Are you ready to start your programming journey? Make sure you're off to a great start with our guide on what you need to know before you start coding. Click here to read now!",
         platform: 'Medium',
         date: 'December 2022',
+        image: Medium,
         bloglink: "https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6"
     },
     {
@@ -24,6 +29,7 @@ const BlogData = [
         description: "Want to know the secret behind how apps and websites work together seamlessly? It's all thanks to APIs! Learn all about this exciting technology in our simple and easy-to-understand article, perfect for kids and beginners alike.",
         platform: 'Medium',
         date: 'December 2022',
+        image: Medium,
         bloglink: "https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2",
     },
     {
@@ -33,6 +39,7 @@ const BlogData = [
         description: 'In this article, we’ll take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it’s the right choice for you.',
         platform: 'Medium',
         date: 'January 2023',
+        image: Medium,
         bloglink: "https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22",
     },
         {
@@ -42,6 +49,7 @@ const BlogData = [
         description: 'This blog on CSS Font Spacing will cover everything you need to know about typography and font spacing in CSS and the different ways of achieving that.',
         platform: 'Lambdatest',
         date: 'January 2023',
+        image: Lamdatest,
         bloglink: "https://www.lambdatest.com/blog/css-font-spacing/",
     },
   ];
