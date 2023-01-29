@@ -56,7 +56,7 @@ const BlogData = [
         id: 6,
         difficulty: 'Intermediate',
         title: 'Navigating the CSS Framework Landscape: Bootstrap or Tailwind?',
-        description: 'Discover the best CSS framework for your project: A comprehensive comparison of Bootstrap and Tailwind in my latest article',
+        description: 'Discover the best CSS framework for your project: A comprehensive comparison of Bootstrap and Tailwind in my latest article.',
         platform: 'Medium',
         date: 'January 2023',
         image: Medium,
