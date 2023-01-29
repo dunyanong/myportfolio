@@ -34,7 +34,7 @@ const BlogData = [
     },
     {
         id: 4,
-        difficulty: 'Laymen',
+        difficulty: 'Intermediate',
         title: 'React: The Pros and Cons of a Popular JavaScript Library',
         description: 'In this article, we’ll take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it’s the right choice for you.',
         platform: 'Medium',
@@ -42,7 +42,7 @@ const BlogData = [
         image: Medium,
         bloglink: "https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22",
     },
-        {
+    {
         id: 5,
         difficulty: 'Technical',
         title: 'Mastering CSS Font Spacing: Tips and Tricks for Perfect Typography',
@@ -52,6 +52,16 @@ const BlogData = [
         image: Lamdatest,
         bloglink: "https://www.lambdatest.com/blog/css-font-spacing/",
     },
+    {
+        id: 6,
+        difficulty: 'Intermediate',
+        title: 'Navigating the CSS Framework Landscape: Bootstrap or Tailwind?',
+        description: 'Discover the best CSS framework for your project: A comprehensive comparison of Bootstrap and Tailwind in my latest article',
+        platform: 'Medium',
+        date: 'January 2023',
+        image: Medium,
+        bloglink: "https://medium.com/@dunyan/navigating-the-css-framework-landscape-bootstrap-or-tailwind-fb21ae12a9e8",
+    },    
   ];
 
   export default BlogData;
