@@ -71,9 +71,9 @@ export default function Home() {
           <div className="text-center py-10">
             <h2 className="text-5xl py-2 text-cyan-600 dark:text-cyan-500 font-medium md:text-6xl">Dun Yan</h2>
             <h3 className="text-2xl py-2 md:text-3xl text-gray-800 dark:text-slate-200 typewriter">
-              Full-Stack Dev
+              Engineer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-l max-w-xl mx-auto dark:text-slate-200">Hi, I'm Dun Yan, a developer based in Kuala Lumpur. I have expertise in NextJS, JavaScript, ReactJS, and Tailwind, and also have experience with NodeJS and Express. Looking for new challenges and opportunities to grow as a developer.</p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-l max-w-xl mx-auto dark:text-slate-200">Hi, I'm Dun Yan, a full-stack engineer based in Kuala Lumpur, Malaysia. I have expertise in NextJS, JavaScript, ReactJS, and Tailwind, and also have experience with NodeJS and Express. Looking for new challenges and opportunities to grow as a developer.</p>
             <p className="text-md leading-8 text-gray-800 md:text-l max-w-xl mx-auto dark:text-slate-200">To contact me👇</p>
           </div>
 
