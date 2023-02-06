@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
-// images
-import Portfolio from '../public/project-img/2ndportfolio.png';
-import Confessay from '../public/project-img/confessaytemplate.png';
-import Tokenium from '../public/project-img/tokenium.png';
-import Weather from '../public/project-img/webweatherapp.png'
+// project images
+import Portfolio from '../../images/project-img/2ndportfolio.png';
+import Confessay from '../../images/project-img/confessaytemplate.png';
+import Tokenium from '../../images/project-img/tokenium.png';
+import Weather from '../../images/project-img/webweatherapp.png'
 
 // all icons
 import { FaHtml5, FaReact, FaBootstrap } from 'react-icons/fa';
@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="grid md:grid-cols-2 gap-10 md:max-w-3xl ">  
                    
             {/*Card 1*/}
-            <div className="rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
+            <div className="rounded overflow-hidden shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
             <a href="https://confessay.vercel.app/" target="_blank">
             <Image src={Confessay} className="rounded-t-lg object-contain" alt="image" />  
             <div className="px-6 py-4">
@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
 
             {/*Card 2*/}
-            <div className="rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
+            <div className="rounded overflow-hidden shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
             <a href="https://dunyan-dev.vercel.app/" target="_blank">
             <Image src={Portfolio}className="rounded-t-lg object-contain" alt="image"/>  
             <div className="px-6 py-4">
@@ -117,7 +117,7 @@ const Projects = () => {
             </div>
 
             {/*Card 3*/}
-            <div className="rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
+            <div className="rounded overflow-hidden shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
             <a href="https://webweatherapp.vercel.app/" target="_blank">
             <Image src={Weather} className="rounded-t-lg object-contain" alt="image"/>  
             <div className="px-6 py-4">
@@ -161,7 +161,7 @@ const Projects = () => {
             </div>                        
 
             {/*Card 4*/}
-            <div className="rounded overflow-hidden shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
+            <div className="rounded overflow-hidden shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hover:shadow-xl duration-200">
             <a href="https://Tokenium.vercel.app/" target="_blank">
             <Image src={Tokenium} className="rounded-t-lg object-contain" alt="image"/>  
             <div className="px-6 py-4">
