@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Timeline = () => {
     return (
         <div className="py-1">
@@ -10,7 +12,7 @@ const Timeline = () => {
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2023</time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Joined Hackathon <span className="font-extrabold leading-tighter tracking-tighter bg-clip-text bg-gradient-to-r text-transparent from-cyan-600 to-teal-400 ">RHB Hack</span></h3>
-                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">As part of my role, I contributed to the development of Zee - an expense management feature within the RHB mobile banking app. It utilizes a card-swiping mechanism to make expense categorization more efficient for users.</p>
+                <p className="text-sm font-normal text-gray-500 dark:text-gray-400">As part of my role, I contributed to the development of Zee - an expense management feature within the RHB mobile banking app. It utilizes a card-swiping mechanism to make expense categorization more efficient for users. <Link href="/hackathons/RHB2023" className="text-cyan-600">Click</Link> for more</p>
             </li> 
             <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

@@ -6,7 +6,7 @@ import FullScreenNavbar from '../components/FullScreenNavbar';
 import Link from "next/link";
 
 // Blog Dataset
-import BlogData from '../data/BlogData';
+import BlogData from '../data/blogs/BlogData';
 
 // map the list of Blogs
 import SearchBar from '../components/SearchBar';

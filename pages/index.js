@@ -7,12 +7,17 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from 'react-icons/bs'
-import Projects from '../components/Projects/Projects';
+import { NotableProjects } from '../components/Projects/NotableProjects';
+import { MiniProjects } from '../components/Projects/MiniProjects';
 import Footer from '../components/Footer';
 import FullScreenNavbar from '../components/FullScreenNavbar';
 import Link from "next/link";
 import profilePic from '../public/dunyanturkey.png';
 import Skills from '../components/Skills';
+
+// Project Dataset
+import notableProjectData  from '../data/projects/NotableProjectData';
+import miniProjectData from '../data/projects/MiniProjectData'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(
@@ -91,8 +96,12 @@ export default function Home() {
         {/*Skillset List*/}
         <Skills />
 
-        {/*Projects List*/}
-        <Projects />
+        {/*NotableProjects List*/}
+        <NotableProjects notableProjectData={notableProjectData}/>
+
+
+        {/*MiniProjects List*/}
+        <MiniProjects miniProjectData={miniProjectData}/>
 
         {/*Footer*/}
         <Footer />
