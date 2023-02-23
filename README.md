@@ -7,7 +7,6 @@ This portfolio is built using a variety of technologies including:
 - [React](https://reactjs.org/)
 - JavaScript
 - CSS
-- HTML
 - JSX
 
 It showcases my work and experiences as a developer. Feel free to explore the different sections and projects featured.
