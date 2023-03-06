@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 // technologies icons
-import { SiNextdotjs, SiTailwindcss, SiBootstrap, SiJavascript, SiExpress, SiMongodb, SiFirebase, SiPandas, SiNumpy, SiTensorflow } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiBootstrap, SiJavascript, SiExpress, SiMongodb, SiFirebase, SiPandas, SiNumpy, SiTensorflow, SiFlutter, SiDart } from 'react-icons/si';
 import { FaReact, FaHtml5, FaPython, FaNodeJs } from 'react-icons/fa';
 import { IoLogoCss3 } from 'react-icons/io';
 
@@ -9,6 +9,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import frontend from '../images/skills/frontend.png';
 import backend from '../images/skills/backend.png';
 import datascience from '../images/skills/datascience.png';
+import mobiledev from '../images/skills/mobiledev.png'
 
 
 const Skills = () => {
@@ -49,12 +50,8 @@ const Skills = () => {
                     <span className="text-3xl text-green-600 mr-1"><a href='https://www.mongodb.com' target='_blank'><SiMongodb /></a></span>
                     <span className="text-3xl text-orange-500 mr-1"><a href='https://firebase.google.com' target='_blank'><SiFirebase /></a></span>
                 </div>
-            </div>                                        
-        </div>     
-        </div>   
-        <div className='flex justify-center'>
-            <div className='grid grid-cols-1 w-full md:w-2/4 p-4'>
-              <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            </div> 
+            <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="flex items-center">
                 <Image src={datascience} alt='frontend image>' width={50} height={50}/>
                     <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Data Science</h3>
@@ -68,9 +65,22 @@ const Skills = () => {
                     <span className="text-3xl text-orange-500 mr-1"><a href='https://www.tensorflow.org/' target='_blank'><SiTensorflow /></a></span>
                     <span className="text-3xl text-black dark:text-white mr-1"><a href='https://numpy.org/' target='_blank'><SiNumpy /></a></span>                    
                 </div>
-            </div> 
-        </div>    
-        </div> 
+            </div>          
+            <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex items-center">
+                <Image src={mobiledev} alt='frontend image>' width={50} height={50}/>
+                    <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Mobile App Development</h3>
+                </div>
+                <div className="text-md leading-tight">
+                    <p className="inline font-ligh text-gray-700 dark:text-gray-200">I develop mobile applications using Flutter and Dart, focusing on creating responsive UIs and integrating with APIs</p>
+                </div>
+                <div v-if="tools" className="flex flex-wrap gap-2 justify-center">
+                    <span className="text-3xl text-cyan-400 mr-1"><a href='https://flutter.dev' target='_blank'><SiFlutter /></a></span>
+                    <span className="text-3xl text-black dark:text-white mr-1"><a href='https://dart.dev' target='_blank'><SiDart /></a></span>                   
+                </div>
+            </div>                                                       
+        </div>     
+        </div>   
         </section>
     );
 }

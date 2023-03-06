@@ -1,3 +1,4 @@
+import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import { FaLink, FaCode } from 'react-icons/fa';
 
 export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}) => (
@@ -37,7 +38,7 @@ export const NotableProjects = ({ notableProjectData }) => {
           <h3 className="text-4xl py-1 text-cyan-600 dark:text-cyan-500 text-center">Notable Projects</h3>
         </div>
         <div className="flex justify-center ">
-        <div className="w-3/4">
+        <div className="md:w-3/4">
         {sortedProjects.map(project => (        
           <NotableProjectCard
             key={project.id}
@@ -47,8 +48,9 @@ export const NotableProjects = ({ notableProjectData }) => {
             projectLink={project.projectLink}
             githubLink={project.githubLink}
           />
-        ))}
+        ))}        
         </div>
+
         </div>
         </section>
     )
