@@ -18,6 +18,7 @@ import Skills from '../components/Skills';
 // Project Dataset
 import notableProjectData  from '../data/projects/NotableProjectData';
 import miniProjectData from '../data/projects/MiniProjectData'
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(
@@ -44,35 +45,7 @@ export default function Home() {
       <main className="bg-white px-10 lg:px-40 dark:bg-gray-900 py-6">
         <section className="min-h-screen">
         <div className={darkMode ? "dark" : ""}>
-        <nav className="navbar py-5 mb-12">
-          <div className="navbar-start md:hidden">            
-              <FullScreenNavbar />
-          </div>
-          <div className="navbar-start hidden md:flex">
-              <ul className="flex justify-between gap-5">
-              <li>
-                  <Link href="/" legacyBehavior>
-                  <a className="text-base  font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</a>
-                  </Link> 
-              </li>
-              <li>
-                  <Link href="/about" legacyBehavior>
-                  <a className="text-base  font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">About</a>
-                  </Link> 
-              </li>
-              <li>
-                  <Link legacyBehavior href="/blogs">
-                  <a className="text-base font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Blogs</a>
-                  </Link>               
-              </li>
-              </ul>
-          </div>
-          <div className="navbar-end">
-              <ul className="flex items-center">
-                <li><BsFillMoonStarsFill className="cursor-pointer text-slate-600 dark:text-slate-200 text-xl" onClick={() => setDarkMode(!darkMode)}/></li>
-              </ul>
-          </div>
-          </nav>
+          <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div> 
           <div className="mx-auto rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={profilePic} alt="image" priority/>
@@ -98,7 +71,6 @@ export default function Home() {
 
         {/*NotableProjects List*/}
         <NotableProjects notableProjectData={notableProjectData}/>
-
 
         {/*MiniProjects List*/}
         <MiniProjects miniProjectData={miniProjectData}/>

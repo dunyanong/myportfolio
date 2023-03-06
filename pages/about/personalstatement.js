@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import Footer from '../../components/Footer';
 import FullScreenNavbar from '../../components/FullScreenNavbar';
 import Link from "next/link";
+import Navbar from '../../components/Navbar';
 
 const PersonalStatement = () => {
   const [darkMode, setDarkMode] = useState(
@@ -23,35 +24,7 @@ const PersonalStatement = () => {
       <main className="bg-white px-10 lg:px-40 dark:bg-gray-900 py-6">
           <section className="min-h-screen">
           <div className={darkMode ? "dark" : ""}>
-          <nav className="navbar py-5 mb-12">
-          <div className="navbar-start md:hidden">            
-              <FullScreenNavbar />
-          </div>
-          <div className="navbar-start hidden md:flex">
-              <ul className="flex justify-between gap-5">
-              <li>
-                  <Link href="/" legacyBehavior>
-                  <a className="text-base  font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Home</a>
-                  </Link> 
-              </li>
-              <li>
-                  <Link href="/about" legacyBehavior>
-                  <a className="text-base  font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">About</a>
-                  </Link> 
-              </li>
-              <li>
-                  <Link legacyBehavior href="/blogs">
-                  <a className="text-base font-semibold my-4 text-gray-800 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-600">Blogs</a>
-                  </Link>               
-              </li>
-              </ul>
-          </div>
-          <div className="navbar-end">
-              <ul className="flex items-center">
-                <li><BsFillMoonStarsFill className="cursor-pointer text-slate-600 dark:text-slate-200" onClick={() => setDarkMode(!darkMode)}/></li>
-              </ul>
-          </div>
-          </nav>
+            <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>            
 
             <div className="pt-10 pb-5">

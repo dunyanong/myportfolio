@@ -61,7 +61,17 @@ const BlogData = [
         date: 'January 2023',
         image: Medium,
         bloglink: "https://medium.com/@dunyan/navigating-the-css-framework-landscape-bootstrap-or-tailwind-fb21ae12a9e8",
-    },    
+    }, 
+    {
+        id: 7,
+        difficulty: 'Intermediate',
+        title: 'Dealing with the steep learning curve of React (can’t find it from ChatGPT)',
+        description: 'If you’re finding it hard to get the hang of React, don’t worry, you’re not alone. In this article, we’ll discuss the challenges you may face while learning React and tips for overcoming them.',
+        platform: 'Medium',
+        date: 'February 2023',
+        image: Medium,
+        bloglink: "https://medium.com/@dunyan/dealing-with-the-steep-learning-curve-of-react-cant-find-it-from-chatgpt-d5658842e454",
+    },   
   ];
 
   export default BlogData;
