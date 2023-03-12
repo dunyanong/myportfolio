@@ -47,7 +47,7 @@ export default function Home() {
         <div className={darkMode ? "dark" : ""}>
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           </div> 
-          <div className="mx-auto rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <div className="mx-auto rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-60 md:w-60">
             <Image src={profilePic} alt="image" priority/>
           </div>         
           <div className="text-center py-10">            
