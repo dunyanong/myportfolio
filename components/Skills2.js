@@ -12,7 +12,7 @@ import datascience from '../images/skills/datascience.png';
 import mobiledev from '../images/skills/mobiledev.png'
 
 
-const Skills = () => {
+const Skills2 = () => {
     return (
         <section className="my-20">
         <h3 className="text-4xl pb-1 text-cyan-600 dark:text-cyan-500 text-center">Skills & experience</h3>   
@@ -20,7 +20,7 @@ const Skills = () => {
         <div className="w-full md:w-3/4 p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="shadow rounded-md py-6 px-8 flex flex-col justify-start space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="flex items-center">
-                    <Image src={frontend} alt='frontend image' width={30} height={30}/>
+                    <Image src={frontend} alt='frontend image' width={50} height={50}/>
                     <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Frontend development</h3>
                 </div>
                 <div className="text-md leading-tight">
@@ -38,7 +38,7 @@ const Skills = () => {
             </div>
             <div className="shadow rounded-md py-6 px-8 flex flex-col justify-start space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="flex items-center">
-                    <Image src={backend} alt='frontend image>' width={30} height={30}/>
+                    <Image src={backend} alt='frontend image>' width={50} height={50}/>
                     <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Backend development</h3>
                 </div>
                 <div className="text-md leading-tight">
@@ -50,26 +50,39 @@ const Skills = () => {
                     <span className="text-3xl text-green-600 mr-1"><a href='https://www.mongodb.com' target='_blank'><SiMongodb /></a></span>
                     <span className="text-3xl text-orange-500 mr-1"><a href='https://firebase.google.com' target='_blank'><SiFirebase /></a></span>
                 </div>
-            </div>                                                                
-        </div>   
-        </div> 
-        <div className='flex justify-center'>
-        <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full md:w-1/3 bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            </div> 
+            <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="flex items-center">
-                <Image src={mobiledev} alt='frontend image>' width={30} height={30}/>
+                <Image src={datascience} alt='frontend image>' width={50} height={50}/>
+                    <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Data Science</h3>
+                </div>
+                <div className="text-md leading-tight">
+                    <p className="inline font-ligh text-gray-700 dark:text-gray-200">I have some experience in AI and Machine Learning, including developing basic algorithms and building simple models. I am proficient in Python and have some exposure to popular Data Science frameworks like TensorFlow and Pandas</p>
+                </div>
+                <div v-if="tools" className="flex flex-wrap gap-2 justify-center">
+                    <span className="text-3xl text-black dark:text-white mr-1"><a href='https://www.python.org' target='_blank'><FaPython /></a></span>
+                    <span className="text-3xl text-black dark:text-white mr-1"><a href='https://pandas.pydata.org/' target='_blank'><SiPandas /></a></span>
+                    <span className="text-3xl text-orange-500 mr-1"><a href='https://www.tensorflow.org/' target='_blank'><SiTensorflow /></a></span>
+                    <span className="text-3xl text-black dark:text-white mr-1"><a href='https://numpy.org/' target='_blank'><SiNumpy /></a></span>                    
+                </div>
+            </div>          
+            <div className="shadow rounded-md py-6 px-8 flex flex-col space-y-6 h-full bg-white dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex items-center">
+                <Image src={mobiledev} alt='frontend image>' width={50} height={50}/>
                     <h3 className="pl-2 text-lg font-semibold mb-2 text-gray-700 dark:text-white leading-5">Mobile App Development</h3>
                 </div>
                 <div className="text-md leading-tight">
-                    <p className="inline font-light text-gray-700 dark:text-gray-200">I build basic mobile applications using Flutter and Dart, focusing on creating responsive UIs and integrating with APIs</p>
+                    <p className="inline font-ligh text-gray-700 dark:text-gray-200">I develop mobile applications using Flutter and Dart, focusing on creating responsive UIs and integrating with APIs</p>
                 </div>
                 <div v-if="tools" className="flex flex-wrap gap-2 justify-center">
                     <span className="text-3xl text-cyan-400 mr-1"><a href='https://flutter.dev' target='_blank'><SiFlutter /></a></span>
                     <span className="text-3xl text-black dark:text-white mr-1"><a href='https://dart.dev' target='_blank'><SiDart /></a></span>                   
                 </div>
-            </div>   
-        </div>         
+            </div>                                                       
+        </div>     
+        </div>   
         </section>
     );
 }
  
-export default Skills;
+export default Skills2;
