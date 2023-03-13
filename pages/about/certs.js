@@ -10,7 +10,7 @@ import Navbar from '../../components/Navbar';
 import async from '../../data/certs/Asynchronous Programming Course.png';
 import HTML from '../../data/certs/HTML.png';
 import CSS from '../../data/certs/CSS.png';
-import Javascript from '../../data/certs/JavaScript.png';
+import Javascript from '../../data/certs/Javascript.png';
 import pythonBlockchain from '../../data/certs/python-blockchain.png';
 
 const images = [
