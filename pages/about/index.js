@@ -48,12 +48,11 @@ const About = () => {
               </div>
               <hr className="h-px mt-2 mb-4 bg-gray-100 border-0 dark:bg-gray-700"></hr>
               <div className="flex justify-start items-center">              
-                <Link href="/about/personalstatement" legacyBehavior>
-                  <a className="flex justify-between mr-3 ml-1 items-center">
-                    <span className="inline-block text-gray-600 dark:text-gray-300 mr-1">Resume</span>
-                    <IoMdDownload className="inline-block text-gray-600 dark:text-gray-300 mx-1" />
-                  </a>
-                </Link>  
+                <a className="flex justify-between mr-3 ml-1 items-center" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
+                  <span className="inline-block text-gray-600 dark:text-gray-300 mr-1">Resume</span>
+                  <IoMdDownload className="inline-block text-gray-600 dark:text-gray-300 mx-1" />
+                </a>
+ 
                 <Link href="/about/personalstatement" legacyBehavior>
                     <a className="flex justify-between ml-3 items-center">
                       <span className="inline-block text-gray-600 dark:text-gray-300 mr-1">Personal statement</span>
