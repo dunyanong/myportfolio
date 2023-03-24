@@ -10,7 +10,8 @@ const BlogData = [
         platform: 'Medium',
         date: 'December 2022',
         image: Medium,
-        bloglink: "https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448"
+        bloglink: "https://medium.com/@dunyan/non-technical-lessons-i-discovered-since-i-taught-myself-to-program-69bf1a91448",
+        tagColor: "bg-cyan-200"
     },
     {
         id: 2,
@@ -20,7 +21,8 @@ const BlogData = [
         platform: 'Medium',
         date: 'December 2022',
         image: Medium,
-        bloglink: "https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6"
+        bloglink: "https://medium.com/@dunyan/starting-to-learn-how-to-program-read-this-first-a2c207ee46b6",
+        tagColor: "bg-cyan-200"
     },
     {
         id: 3,
@@ -31,16 +33,18 @@ const BlogData = [
         date: 'December 2022',
         image: Medium,
         bloglink: "https://medium.com/@dunyan/api-explained-for-a-5-year-old-612978b163f2",
+        tagColor: "bg-cyan-200"
     },
     {
         id: 4,
         difficulty: 'Intermediate',
         title: 'React: The Pros and Cons of a Popular JavaScript Library',
-        description: 'In this article, we’ll take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it’s the right choice for you.',
+        description: 'In this article, we will take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it is the right choice for you.',
         platform: 'Medium',
         date: 'January 2023',
         image: Medium,
         bloglink: "https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22",
+        tagColor: "bg-pink-200"
     },
     {
         id: 5,
@@ -51,6 +55,7 @@ const BlogData = [
         date: 'January 2023',
         image: Lamdatest,
         bloglink: "https://www.lambdatest.com/blog/css-font-spacing/",
+        tagColor: "bg-pink-200" 
     },
     {
         id: 6,
@@ -61,17 +66,30 @@ const BlogData = [
         date: 'January 2023',
         image: Medium,
         bloglink: "https://medium.com/@dunyan/navigating-the-css-framework-landscape-bootstrap-or-tailwind-fb21ae12a9e8",
+        tagColor: "bg-pink-200"
     }, 
     {
         id: 7,
         difficulty: 'Intermediate',
-        title: 'Dealing with the steep learning curve of React (can’t find it from ChatGPT)',
-        description: 'If you’re finding it hard to get the hang of React, don’t worry, you’re not alone. In this article, we’ll discuss the challenges you may face while learning React and tips for overcoming them.',
+        title: 'Dealing with the steep learning curve of React (cannot find it from ChatGPT)',
+        description: 'If you are finding it hard to get the hang of React, do not worry, you are not alone. In this article, we will discuss the challenges you may face while learning React and tips for overcoming them.',
         platform: 'Medium',
         date: 'February 2023',
         image: Medium,
         bloglink: "https://medium.com/@dunyan/dealing-with-the-steep-learning-curve-of-react-cant-find-it-from-chatgpt-d5658842e454",
+        tagColor: "bg-pink-200"
     },   
+    {
+        id: 8,
+        difficulty: 'Beginner',
+        title: 'Why learning C Programming is a must?',
+        description: 'In this article, we will explore the top 5 reasons why learning C programming is a must.',
+        platform: 'Medium',
+        date: 'March 2023',
+        image: Medium,
+        bloglink: "https://medium.com/@dunyan/why-learning-c-programming-is-a-must-f078213e2f31",
+        tagColor: "bg-cyan-200"
+    },    
   ];
 
   export default BlogData;
