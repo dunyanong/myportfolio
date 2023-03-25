@@ -16,7 +16,7 @@ function MobileNav({open, setOpen}){
                     </a>
                 </Link>
                 <Link href="/project" legacyBehavior>
-                    <a className="text-base  font-semibold my-4 text-gray-200 hover:text-gray-200">
+                    <a className="text-base font-semibold my-4 text-gray-200 hover:text-gray-200">
                         Projects
                     </a>
                 </Link>                 
@@ -25,6 +25,9 @@ function MobileNav({open, setOpen}){
                         Blogs
                     </a>                
                 </Link>
+                <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
+                    Resume
+                </a>
             </div>  
         </div>
     )

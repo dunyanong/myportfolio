@@ -41,6 +41,11 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
+          <li>            
+            <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
