@@ -1,18 +1,11 @@
 import Head from 'next/head'
-import { useState, useEffect } from "react";
 import Footer from '../../components/Footer';
-import FullScreenNavbar from '../../components/FullScreenNavbar';
-import Link from "next/link";
-import Timeline from '../../components/Timeline';
-
-// all icons
-import { IoMdDownload } from 'react-icons/io';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { FaLink } from 'react-icons/fa'
 import Navbar from '../../components/Navbar';
+import Link from 'next/link';
+
+import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const About = () => {
-
     return (
       <div>
       <Head>
@@ -24,36 +17,63 @@ const About = () => {
           <section className="min-h-screen">
           <div>
             <Navbar />
-          </div>                  
+          </div>                
 
             {/* About */}
-            <div className="pt-10">
-              <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">Hello 👋 !</h1>
-              <p class="text-xl text-gray-400 mb-4">I am a Software Engineer who likes web development and performance optimization.</p>
+            <div className="flex flex-col-reverse sm:flex-row items-start">
+              <div className="flex flex-col pr-8">
+                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Hello 👋 !</h1>
+                <p className="text-gray-400 py-4">Hey, I am Dun Yan. Currently working as a technical writing coder for <a a target="_blank" className='text-cyan-300' href='https://www.lambdatest.com'>Lambdatest</a>.</p>
+              </div>
             </div>  
 
-            {/*Timeline!*/}
-            <Timeline />           
-            {/* My Personal Statement and Resume */}
-            <div className="pt-10">
-              <div className="text-left pl-1">
-                <h2 className="text-2xl text-cyan-500 font-medium md:text-2xl">My Personal Statement & Resume</h2>
+            <hr className="w-full border-1 border-gray-800 mb-8" />
+
+            <div className="flex flex-col-reverse sm:flex-row items-start">              
+              <div className="flex flex-col pr-8">
+                <p className="text-gray-400 py-4">In November 2020, at the age of 16, I began my journey of learning Python and other libraries such as Pandas, Numpy, and Matplotlib.</p>
+                <p className="text-gray-400 py-4">My focus is on mastering skills such as JavaScript, Typescript, React.js, Express.js, MongoDB and Flutter. Alongside these technical skills, I also honed my understanding of data structures and algorithms, which are essential tools for any engineer.</p>
+                <p className="text-gray-400 py-4">My passion for coding is complemented by a strong interest in emerging technologies such as semiconductors, AI & blockchain. I find these topics fascinating and make a point to stay updated on the latest developments in these fields.</p>
+                <p className="text-gray-400 py-4">I enjoy simplifying complex concepts through writing blogs and participating in <Link href="/hackathons/RHB2023" legacyBehavior><a target="_blank" className='text-cyan-300'>hackathons</a></Link>. Writing articles that make difficult ideas easy to understand is rewarding, and hackathons are a fun way to collaborate and innovate.</p>
               </div>
-              <hr className="h-px mt-2 mb-4 bg-gray-700 border-0"></hr>
-              <div className="flex justify-start items-center">              
-                <a className="flex justify-between mr-3 ml-1 items-center" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
-                  <span className="inline-block text-gray-300 mr-1">Resume</span>
-                  <IoMdDownload className="inline-block text-gray-300 mx-1" />
-                </a>
- 
-                <Link href="/about/personalstatement" legacyBehavior>
-                    <a className="flex justify-between ml-3 items-center">
-                      <span className="inline-block text-gray-300 mr-1">Personal statement</span>
-                      <FaLink className="inline-block text-gray-300 mx-1" />
-                    </a>
-                </Link>                
-              </div>
-            </div>                          
+            </div>  
+
+            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>Contact ☕</h2>
+            <p className='text-gray-400 pb-8'>Don't hesitate in reaching out if you would like to work together. Grabbing a virtual/physical chat? Building new web projects or improving existing ones? Contact me on Twitter!</p>
+
+            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>More info about me? 🤔</h2>
+            <p className='text-gray-400 pb-8'>You can follow me on <a href="https://twitter.com/dun_yan_" target="_blank" className='text-cyan-300'>Twitter at @dun_yan_</a> , where I post about web development, or check my <a href="https://github.com/dunyanong/" className='text-cyan-300' target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/dunyan/" className='text-cyan-300' target="_blank">LinkedIn</a> profiles.</p>          
+
+            <div className="flex flex-col gap-2 md:flex-row md:gap-2">
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/dun_yan_" className="flex w-full border border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-200 hover:bg-neutral-900 transition-all justify-between">
+                  <div className="flex items-center">
+                    <span className='text-2xl'><FaTwitter /></span>
+                    <div className="ml-3">Twitter</div>
+                  </div>
+                  <svg className="mr-2" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor" />
+                  </svg>
+              </a>
+              <a rel="noopener noreferrer" target="_blank" href="https://github.com/dunyanong" className="flex w-full border border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-200 hover:bg-neutral-900 transition-all justify-between">
+                  <div className="flex items-center">
+                  <span className='text-2xl'><FaGithub /></span>
+                    <div className="ml-3">GitHub</div>
+                  </div>
+                  <svg className="mr-2" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor" />
+                  </svg>
+              </a>
+              <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/dunyan/" className="flex w-full border border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-200 hover:bg-neutral-900 transition-all justify-between">
+                  <div className="flex items-center">
+                    <span className='text-2xl'><FaLinkedin /></span>
+                    <div className="ml-3">LinkedIn</div>
+                  </div>
+                  <svg className="mr-2" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor" />
+                  </svg>
+              </a>
+            </div>
+
             <Footer />
         </section>
       </main>
