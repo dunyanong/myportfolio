@@ -35,7 +35,12 @@ const Footer = () => {
                             <Link href="/blogs" legacyBehavior>
                             <a className="hover:underline">Blogs</a>
                             </Link>
-                        </li>                     
+                        </li>
+                        <li className="pb-4">
+                            <a className="hover:underline" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
+                                Resume
+                            </a>       
+                        </li>                                 
                     </ul>
 
                     <ul className="text-gray-500">
