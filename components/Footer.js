@@ -1,12 +1,4 @@
 import Link from "next/link";
-import {
-    AiFillTwitterCircle,
-    AiFillLinkedin,
-    AiFillGithub,
-    AiFillHome,
-    AiFillQuestionCircle,
-    AiOutlinePaperClip
-} from "react-icons/ai";
 
 const Footer = () => {
     return (
@@ -24,18 +16,23 @@ const Footer = () => {
                             <a className="hover:underline">About</a>
                             </Link>
                         </li>
-                    </ul>
-                    <ul className="text-gray-500">
                         <li className="pb-4">
                             <Link href="/project" legacyBehavior>
                             <a className="hover:underline">Projects</a>
                             </Link>
-                        </li>
+                        </li>                        
+                    </ul>
+                    <ul className="text-gray-500">
                         <li className="pb-4">
                             <Link href="/blogs" legacyBehavior>
                             <a className="hover:underline">Blogs</a>
                             </Link>
                         </li>
+                        <li className="pb-4">
+                            <Link href="/gallery" legacyBehavior>
+                            <a className="hover:underline">Photos</a>
+                            </Link>
+                        </li>                        
                         <li className="pb-4">
                             <a className="hover:underline" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
                                 Resume
@@ -44,6 +41,11 @@ const Footer = () => {
                     </ul>
 
                     <ul className="text-gray-500">
+                        <li className="pb-4">
+                            <Link href="about/certs" legacyBehavior>
+                            <a className="hover:underline">Certificates</a>
+                            </Link>
+                        </li>                                                
                         <li className="pb-4">
                             <a href="https://twitter.com/dun_yan_" className="hover:underline" target="_blank">Twitter</a>
                         </li>                        

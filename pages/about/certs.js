@@ -57,9 +57,15 @@ const Certs = () => {
             <Navbar />
             </div>            
 
-            <div className="pt-10 pb-5">
-                <h2 className="text-center text-4xl py-2 text-cyan-500 font-medium md:text-4xl">Certificates</h2>
-            </div>
+            <div className="flex flex-col-reverse sm:flex-row items-start">
+              <div className="flex flex-col pr-8">
+                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Certificates 📜</h1>
+                <p className="text-gray-400 py-4">Welcome to my Certificates page! Here you can view all of my programming certificates, which showcase the various skills and technologies I have mastered.</p>
+              </div>
+            </div>  
+
+            <hr className="w-full border-1 border-gray-800 mb-8" />
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-10">
             {images.map((image, index) => (
             <div
