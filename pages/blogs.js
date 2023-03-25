@@ -31,7 +31,7 @@ const Blogs = () => {
             <Navbar />
           </div>
             {/* List of Articles */}
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Blog</h1>
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Blog ✍️</h1>
             <p className="py-4 text-gray-400">
               I am passionate about writing blogs on web development, covering topics ranging from frontend, backend, and mobile development. 
               You can use the search function below to filter by title or summary and easily find the content you're looking for.
