@@ -4,7 +4,7 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <div>
+      <div className='bg-black w-full'>
         <Component {...pageProps} />
       </div>
     </ChakraProvider>
