@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/Footer';
 
-import profilePic from '../public/avatar.png';
+import profilePic from '../images/my-pictures/avatar.png';
 import medium from '../data/blogs/logo-img/Medium.png';
 import lambdatest from '../data/blogs/logo-img/Lambdatest.png'
 
@@ -25,10 +25,10 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />   
+        <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <main className="px-10 lg:px-80 bg-black py-6">
+      <main className="px-10 md:px-20 lg:px-80 bg-black py-6">
         <section>
         <div>
           <Navbar/>

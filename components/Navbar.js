@@ -1,6 +1,3 @@
-// Navbar.js
-import { BsFillMoonStarsFill } from "react-icons/bs";
-
 import Link from "next/link";
 import FullScreenNavbar from "./FullScreenNavbar";
 
