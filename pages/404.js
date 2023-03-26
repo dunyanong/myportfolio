@@ -24,7 +24,7 @@ const Notfound = () => {
             <meta name="msapplication-TileColor" content="#da532c" />
             <meta name="theme-color" content="#ffffff" />
             </Head>
-            <main className="bg-black px-10 md:px-20 lg:px-80 py-6">
+            <main className="px-10 sm:px-11 md:px-12 py-5 sm:py-6 md:py-0 max-w-3xl mx-auto w-screen">
                 <section className="min-h-screen">
                 <div>
                     <Navbar />
