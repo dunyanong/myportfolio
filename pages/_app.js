@@ -4,7 +4,9 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <Component {...pageProps} />
+      <div>
+        <Component {...pageProps} />
+      </div>
     </ChakraProvider>
   )
 }

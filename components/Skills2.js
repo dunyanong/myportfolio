@@ -11,7 +11,6 @@ import backend from '../images/skills/backend.png';
 import datascience from '../images/skills/datascience.png';
 import mobiledev from '../images/skills/mobiledev.png'
 
-
 const Skills2 = () => {
     return (
         <section className="my-20">
