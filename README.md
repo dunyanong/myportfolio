@@ -5,6 +5,7 @@ This portfolio is built using a variety of technologies including:
 - [Tailwind](https://tailwindcss.com/)
 - [NextJS](https://nextjs.org/)
 - [React](https://reactjs.org/)
+- [Framer motion](https://www.framer.com/motion/)
 - JavaScript
 - CSS
 - JSX
