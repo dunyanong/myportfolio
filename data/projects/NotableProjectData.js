@@ -9,6 +9,14 @@ const NotableProjectData = [
     },
     {
         id: 2,
+        title: 'Movie Page',
+        description: "Movie webpage that displays the most popular movies at the moment. The website is powered by a movie database and is designed to make it easy for users to find and watch the latest movies.",
+        techStack: 'NextJS + React + Tailwind + Javascript',
+        projectLink: "https://confessay.vercel.app",
+        githubLink: "https://nextmovieapp-13.vercel.app"
+    },    
+    {
+        id: 3,
         title: 'Confessay',
         description: "A platform created to allow people to confess ther negative emotions openly and anonymously.",
         techStack: 'NextJS + DaisyUI + ReactJS + Tailwind + Firebase',
