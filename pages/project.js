@@ -43,7 +43,7 @@ const project = () => {
         </div>
         
         <div className='py-5'>
-          <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Mini Project</h3>
+          <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Mini Projects</h3>
           <MiniProjects miniProjectData={miniProjectData}/>
         </div>
 
