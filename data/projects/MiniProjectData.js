@@ -28,7 +28,7 @@ const MiniProjectData = [
         title: 'Birthday List',
         description: "A simple full-stack birthday list.",
         techStack: 'React + Tailwind + NextJS + Prisma + Typescript + MySQL',
-        projectLink: "birthdayapp4fun.vercel.app",
+        projectLink: "https://birthdayapp4fun.vercel.app",
         githubLink: "https://github.com/dunyanong/birthdayapp"
     },    
   ];
