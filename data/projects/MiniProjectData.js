@@ -17,9 +17,9 @@ const MiniProjectData = [
     },
     {
         id: 1,
-        title: 'Tokenium',
-        description: "Built with Coingecko API to strengthern my understanding of API and React framework.",
-        techStack: 'React + Tailwind + Coingecko API',
+        title: 'Birthday List',
+        description: "A simple full-stack birthday list.",
+        techStack: 'React + Tailwind + NextJS + Prisma + Typescript + MySQL',
         projectLink: "https://Tokenium.vercel.app",
         githubLink: "https://github.com/dunyanong/Tokenium"
     },    
