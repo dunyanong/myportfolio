@@ -39,7 +39,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>            
-            <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
+            <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200" href='https://drive.google.com/file/d/1idKeSx0HMTZLMz4hjtwb5yNJGpaXQ36h/view?usp=sharing' target='_blank'>
               Resume
             </a>
           </li>
