@@ -54,7 +54,7 @@ const BlogData = [
         platform: 'Lambdatest',
         date: 'January 2023',
         image: Lamdatest,
-        bloglink: "https://www.lambdatest.com/blog/css-font-spacing/",
+        bloglink: "https://www.lambdatest.com/blog/css-font-spacing",
         tagColor: "bg-pink-200" 
     },
     {
@@ -89,7 +89,18 @@ const BlogData = [
         image: Medium,
         bloglink: "https://medium.com/@dunyan/why-learning-c-programming-is-a-must-f078213e2f31",
         tagColor: "bg-cyan-200"
-    },    
+    },
+    {
+        id: 9,
+        difficulty: 'Technical',
+        title: 'CSS Gap Property',
+        description: 'A Beginner&#8217s Guide To Perfectly Spaced Layouts',
+        platform: 'Lambdatest',
+        date: 'April 2023',
+        image: Lamdatest,
+        bloglink: "https://www.lambdatest.com/blog/css-gap-property",
+        tagColor: "bg-pink-200"
+    },       
   ];
 
   export default BlogData;
