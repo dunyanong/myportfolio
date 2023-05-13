@@ -1,6 +1,32 @@
 import { FaLink, FaCode } from 'react-icons/fa';
 
-export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}) => (
+interface NotableProjectCardProps {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+}
+
+interface NotableProjectProps {
+    notableProjectData: NotableProjectCardProps[];
+}
+
+interface NotableProjectCardProps {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+}
+
+interface NotableProjectsProps {
+    notableProjectData: NotableProjectCardProps[];
+}
+
+export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}: NotableProjectCardProps) => (
     <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000">
     <div className="flex items-center pb-3">
         <div>
@@ -29,7 +55,7 @@ export const NotableProjectCard = ({id, title, description, techStack, projectLi
     </div> 
 )
 
-export const NotableProjects = ({ notableProjectData }) => {
+export const NotableProjects = ({ notableProjectData }: NotableProjectProps) => {
     const sortedProjects = notableProjectData.sort((a, b) => b.id - a.id);
     return (
         <section>
@@ -37,7 +63,7 @@ export const NotableProjects = ({ notableProjectData }) => {
         <div className="w-auto">
         {sortedProjects.map(project => (        
           <NotableProjectCard
-            key={project.id}
+            id={project.id}
             title={project.title}
             description={project.description}
             techStack={project.techStack}

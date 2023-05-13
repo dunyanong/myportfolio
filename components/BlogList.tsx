@@ -57,7 +57,7 @@ interface BlogListProps {
   }[];
 }
 
-const BlogList: React.FC<BlogListProps> = ({ blogs }) => {
+export const BlogList: React.FC<BlogListProps> = ({ blogs }) => {
   const sortedBlogs = blogs.sort((a, b) => b.id - a.id);
   return (
     <div>
@@ -77,5 +77,3 @@ const BlogList: React.FC<BlogListProps> = ({ blogs }) => {
     </div>
   );
 };
-
-export default BlogCard;
