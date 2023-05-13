@@ -6,9 +6,9 @@ This portfolio is built using a variety of technologies including:
 - [NextJS](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Framer motion](https://www.framer.com/motion/)
-- JavaScript
+- Typescript
 - CSS
-- JSX
+- Tsx
 
 It showcases my work and experiences as a developer. Feel free to explore the different sections and projects featured.
 

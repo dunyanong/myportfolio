@@ -13,7 +13,7 @@ const Blogs = () => {
 
   const [filteredBlogs, setFilteredBlogs] = useState(BlogData);
 
-  const handleSearch = (filteredBlogs) => {
+  const handleSearch = (filteredBlogs: any) => {
     setFilteredBlogs(filteredBlogs);
   };
   
