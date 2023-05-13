@@ -77,3 +77,5 @@ export const BlogList: React.FC<BlogListProps> = ({ blogs }) => {
     </div>
   );
 };
+
+export default BlogCard;
