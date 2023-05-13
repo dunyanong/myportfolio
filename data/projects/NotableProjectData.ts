@@ -15,6 +15,14 @@ const NotableProjectData = [
         projectLink: "https://confessay.vercel.app",
         githubLink: "https://github.com/dunyanong/confessay"
     },
+    {
+        id: 3,
+        title: 'Current portfolio',
+        description: "Next.js app built with Typescript",
+        techStack: 'NextJS + DaisyUI + ReactJS + Tailwind + Framermotion',
+        projectLink: "https://dunyan.vercel.app",
+        githubLink: "https://github.com/dunyanong/myportfolio"
+    },    
 
   ];
 
