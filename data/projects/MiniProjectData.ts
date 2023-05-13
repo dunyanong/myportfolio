@@ -1,4 +1,13 @@
-const MiniProjectData = [
+interface MiniProject {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+  }
+  
+  const MiniProjectData: MiniProject[] = [
     {
         id: 4,
         title: 'Movie Page',
