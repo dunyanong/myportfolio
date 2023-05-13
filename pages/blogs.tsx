@@ -9,11 +9,24 @@ import BlogData from '../data/blogs/BlogData';
 import SearchBar from '../components/SearchBar';
 import Navbar from '../components/Navbar';
 
+interface Blog {
+  id: number;
+  difficulty: string;
+  title: string;
+  description: string;
+  platform: string;
+  date: string;
+  image: any;
+  bloglink: string;
+  tagColor: string;
+}
+
+
 const Blogs = () => {
 
-  const [filteredBlogs, setFilteredBlogs] = useState(BlogData);
+  const [filteredBlogs, setFilteredBlogs] = useState<Blog[]>(BlogData);
 
-  const handleSearch = (filteredBlogs) => {
+  const handleSearch = (filteredBlogs: Blog[]) => {
     setFilteredBlogs(filteredBlogs);
   };
   

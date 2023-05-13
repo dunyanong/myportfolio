@@ -1,6 +1,32 @@
 import { FaLink, FaCode } from 'react-icons/fa';
 
-export const MiniProjectCard = ({id, title, description, techStack, projectLink, githubLink}) => (
+interface NotableProjectCardProps {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+}
+
+interface NotableProjectProps {
+    notableProjectData: NotableProjectCardProps[];
+}
+
+interface NotableProjectCardProps {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+}
+
+interface NotableProjectsProps {
+    notableProjectData: NotableProjectCardProps[];
+}
+
+export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}: NotableProjectCardProps) => (
     <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000">
     <div className="flex items-center pb-3">
         <div>
@@ -29,21 +55,24 @@ export const MiniProjectCard = ({id, title, description, techStack, projectLink,
     </div> 
 )
 
-export const MiniProjects = ({ miniProjectData }) => {
-    const sortedProjects = miniProjectData.sort((a, b) => b.id - a.id);
+export const NotableProjects = ({ notableProjectData }: NotableProjectProps) => {
+    const sortedProjects = notableProjectData.sort((a, b) => b.id - a.id);
     return (
         <section>
-        <div className=' grid grid-cols-1'>
-            {sortedProjects.map(project => (
-            <MiniProjectCard 
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                techStack={project.techStack}
-                projectLink={project.projectLink}
-                githubLink={project.githubLink}
-            />
-            ))}
+        <div className="flex justify-start">
+        <div className="w-auto">
+        {sortedProjects.map(project => (        
+          <NotableProjectCard
+            id={project.id}
+            title={project.title}
+            description={project.description}
+            techStack={project.techStack}
+            projectLink={project.projectLink}
+            githubLink={project.githubLink}
+          />
+        ))}        
+        </div>
+
         </div>
         </section>
     )

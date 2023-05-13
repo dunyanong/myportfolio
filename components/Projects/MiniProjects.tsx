@@ -1,6 +1,24 @@
 import { FaLink, FaCode } from 'react-icons/fa';
 
-export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}) => (
+// Define a type interface for MiniProject
+interface MiniProject {
+    id: number;
+    title: string;
+    description: string;
+    techStack: string;
+    projectLink: string;
+    githubLink: string;
+  }
+  
+// Define a type interface for the props of MiniProjectCard component
+interface MiniProjectCardProps extends MiniProject {}
+
+// Define a type interface for the props of MiniProjects component
+interface MiniProjectsProps {
+    miniProjectData: MiniProject[];
+}
+
+export const MiniProjectCard = ({id, title, description, techStack, projectLink, githubLink}: MiniProjectCardProps) => (
     <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000">
     <div className="flex items-center pb-3">
         <div>
@@ -29,24 +47,21 @@ export const NotableProjectCard = ({id, title, description, techStack, projectLi
     </div> 
 )
 
-export const NotableProjects = ({ notableProjectData }) => {
-    const sortedProjects = notableProjectData.sort((a, b) => b.id - a.id);
+export const MiniProjects = ({ miniProjectData }: MiniProjectsProps) => {
+    const sortedProjects = miniProjectData.sort((a, b) => b.id - a.id);
     return (
         <section>
-        <div className="flex justify-start">
-        <div className="w-auto">
-        {sortedProjects.map(project => (        
-          <NotableProjectCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            techStack={project.techStack}
-            projectLink={project.projectLink}
-            githubLink={project.githubLink}
-          />
-        ))}        
-        </div>
-
+        <div className='grid grid-cols-1'>
+            {sortedProjects.map(project => (
+            <MiniProjectCard 
+                id={project.id}
+                title={project.title}
+                description={project.description}
+                techStack={project.techStack}
+                projectLink={project.projectLink}
+                githubLink={project.githubLink}
+            />
+            ))}
         </div>
         </section>
     )

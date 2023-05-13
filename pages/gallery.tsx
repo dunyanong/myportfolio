@@ -75,7 +75,6 @@ const gallery = () => {
               <div
                 className="relative"
                 key={index}
-                layout="true"
               >
               <Image
                 src={image.url}
