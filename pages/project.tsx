@@ -38,12 +38,12 @@ const project = () => {
 
         
         <div className='py-5'>
-          <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Notable Projects</h3>
+          <h3 className="font-bold text-3xl md:text-4xl tracking-tight pt-6 text-white">Notable Projects</h3>
           <NotableProjects notableProjectData={notableProjectData}/>  
         </div>
         
         <div className='py-5'>
-          <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Mini Projects</h3>
+          <h3 className="font-bold text-3xl md:text-4xl tracking-tight pt-6 text-white">Mini Projects</h3>
           <MiniProjects miniProjectData={miniProjectData}/>
         </div>
 

@@ -50,7 +50,7 @@ export const MiniProjectCard = ({id, title, description, techStack, projectLink,
 export const MiniProjects = ({ miniProjectData }: MiniProjectsProps) => {
     const sortedProjects = miniProjectData.sort((a, b) => b.id - a.id);
     return (
-        <section>
+        <section className='py-5'>
         <div className='grid grid-cols-1'>
             {sortedProjects.map(project => (
             <MiniProjectCard 

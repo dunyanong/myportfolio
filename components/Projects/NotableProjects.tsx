@@ -27,7 +27,7 @@ interface NotableProjectsProps {
 }
 
 export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}: NotableProjectCardProps) => (
-    <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000">
+    <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000 ">
     <div className="flex items-center pb-3">
         <div>
             <h1 className="font-semibold text-xl text-gray-200">{title}</h1>    
@@ -58,7 +58,7 @@ export const NotableProjectCard = ({id, title, description, techStack, projectLi
 export const NotableProjects = ({ notableProjectData }: NotableProjectProps) => {
     const sortedProjects = notableProjectData.sort((a, b) => b.id - a.id);
     return (
-        <section>
+        <section className='py-5'>
         <div className="flex justify-start">
         <div className="w-auto">
         {sortedProjects.map(project => (        

@@ -94,7 +94,7 @@ const BlogData = [
         id: 9,
         difficulty: 'Technical',
         title: 'CSS Gap Property',
-        description: 'A Beginner&#8217s Guide To Perfectly Spaced Layouts',
+        description: 'A Beginner&#39s Guide To Perfectly Spaced Layouts',
         platform: 'Lambdatest',
         date: 'April 2023',
         image: Lamdatest,
