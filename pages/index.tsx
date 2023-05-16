@@ -98,7 +98,7 @@ export default function Home() {
         </div>
         
         <div className='py-5'>
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Notable Project</h3>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight py-6 text-white">Notable Project</h3>
         <div className="py-4 pr-8 border-gray-700 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg hover:shadow-xl duration-1000">
           <div className="flex items-center pb-3">
               <div>
@@ -125,6 +125,32 @@ export default function Home() {
               </a>
           </div>
           </div>
+          <div className="py-4 pr-8 border-gray-700 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg hover:shadow-xl duration-1000">
+          <div className="flex items-center pb-3">
+              <div>
+                  <h1 className="font-semibold text-xl text-gray-200">FVG</h1>    
+                  <p className='text-xs text-cyan-500 font-semibold'>NextJS + DaisyUI + ReactJS + Tailwind + Firebase</p>
+              </div>            
+          </div>
+          <div className="flex justify-between items-center">
+              <div className="flex items-center gap-2">
+              <div className="pt-1">
+                  <p className="text-sm text-gray-400">It allows users to vote for their favorite football players (GOAT) and provides a platform for the audience to participate in the voting process.</p>         
+              </div>
+              </div>                
+          </div>
+
+          <div className="py-4 flex justify-start gap-4 items-center">
+              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://fvg.vercel.app" target="_blank">
+                  <FaLink className="mr-1" size={18} />
+                  <p>Link</p>
+              </a>
+              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://github.com/dunyanong/FGV" target="_blank">
+                  <FaCode className="mr-1" size={18} />
+                  <p>Code</p>
+              </a>
+          </div>
+          </div>          
           <Link className="flex items-center pt-8 text-gray-400 leading-7 rounded-lg hover:text-gray-200 transition-all h-6" href="/project">
             <p>Explore all projects</p>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-6 w-6 ml-1"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"></path></svg>
