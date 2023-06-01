@@ -30,9 +30,11 @@ function MobileNav({ open, setOpen }: MobileNavProps) {
             Blogs
           </a>
         </Link>
-        <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank' rel='noopener noreferrer'>
-          Resume
-        </a>
+        <Link href="/hackathons" legacyBehavior>
+          <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200">
+            Hackathons
+          </a>
+        </Link>
       </div>
     </div>
   );

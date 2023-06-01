@@ -39,9 +39,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>            
-            <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200" href='https://drive.google.com/file/d/1idKeSx0HMTZLMz4hjtwb5yNJGpaXQ36h/view?usp=sharing' target='_blank'>
-              Resume
-            </a>
+          <Link legacyBehavior href="/hackathons">
+              <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200">
+                Hackathons
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
