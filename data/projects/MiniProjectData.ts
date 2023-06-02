@@ -1,12 +1,20 @@
 const MiniProjectData = [
     {
-        id: 5,
+        id: 6,
         title: 'AI Hand Detector',
         description: "A hand detector with 2000 pictures showcasing various hand positions and gestures. Each picture is labeled with descriptions, totaling 6000 labels.",
         techStack: 'Hand.js + Javascript + CSS + HTML',
-        projectLink: "https://hand-detector.vercel.app/",
+        projectLink: "https://hand-detector.vercel.app",
         githubLink: "https://github.com/dunyanong/hand-detector"
-    },       
+    },
+    {
+        id: 5,
+        title: 'AI Object Detector',
+        description: "A simple object detector integrated with Tensorflow and Next.js",
+        techStack: 'Tensorflow.js+ Javascript + Next.js + Tailwind',
+        projectLink: "https://object-detector-tau.vercel.app",
+        githubLink: "https://github.com/dunyanong/object-detector"
+    },    
     {
         id: 4,
         title: 'Movie Page',
