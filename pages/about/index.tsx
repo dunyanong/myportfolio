@@ -28,7 +28,7 @@ const About = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Hello 👋 !</h1>
-                <p className="text-gray-400 py-4">Hey, I am Dun Yan. Currently working as a technical writing coder for <a target="_blank" className='text-cyan-300' href='https://www.lambdatest.com'>Lambdatest</a>.</p>
+                <p className="text-gray-400 py-4">Hey, I am Dun Yan and currently working as a software engineer.</p>
               </div>
             </div>  
 
