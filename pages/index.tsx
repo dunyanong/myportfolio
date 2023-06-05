@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Ong Dun Yan</h1>
             <h2 className="text-gray-200 mb-4">Full-Stack Engineer based in  <span className="font-semibold">Malaysia 🇲🇾 </span></h2>
-            <p className="text-gray-400 mb-4">Focus lies in the realm of software development and web technologies. Possesses a strong affection for the intricate workings of semiconductors.</p>
+            <p className="text-gray-400 mb-4">Focus lies in the realm of software technologies and data science. Possesses a strong affection for the intricate workings of semiconductors.</p>
           </div>
           <div className="w-[80px] sm:w-[134px] h-[80px] sm:h-[134px] relative mr-auto flex-none rounded-full overflow-hidden">
             <Image src={profilePic} alt="image" priority className="w-full h-auto"/>
