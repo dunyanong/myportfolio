@@ -36,7 +36,7 @@ const About = () => {
 
             <div className="flex flex-col-reverse sm:flex-row items-start">              
               <div className="flex flex-col pr-8">
-                <p className="text-gray-400 py-4">In November 2020, at the age of 15, I began my journey of learning Python and other libraries such as Pandas, Numpy, and Matplotlib.</p>
+                <p className="text-gray-400 py-4">At the age of 15, I began my journey of learning Python and other libraries such as Pandas, Numpy, and Matplotlib.</p>
                 <p className="text-gray-400 py-4">My focus is on mastering skills such as JavaScript, Typescript, React.js, Express.js, MongoDB and Flutter. Alongside these technical skills, I also honed my understanding of data structures and algorithms, which are essential tools for any engineer.</p>
                 <p className="text-gray-400 py-4">My passion for coding is complemented by a strong interest in emerging technologies such as semiconductors, AI & blockchain. I find these topics fascinating and make a point to stay updated on the latest developments in these fields.</p>
                 <p className="text-gray-400 py-4">I enjoy simplifying complex concepts through writing blogs and participating in <Link href="/hackathons" legacyBehavior><a target="_blank" className='text-cyan-300'>hackathons</a></Link>. Writing articles that make difficult ideas easy to understand is rewarding, and hackathons are a fun way to collaborate and innovate.</p>
