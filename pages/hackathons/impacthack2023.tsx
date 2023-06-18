@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Footer from '../../components/Footer';
 import Image from 'next/image';
-import prototype from './img/rhb2023prototype.png'
+import prototype from './img/impact2023prototype.png'
 import Navbar from '../../components/Navbar';
 
-export default function RHB2023() {
+export default function Impact2023() {
     return (
     <div>
         <Head>
@@ -24,8 +24,8 @@ export default function RHB2023() {
             </div>            
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
-                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">RHB 2023 🔥</h1>
-                <p className="text-gray-400 pt-4">Problem Statement: How might we help the young adults in developing financial literacy to grow their wealth at an early age?</p>
+                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Impact 2023 🔥</h1>
+                <p className="text-gray-400 pt-4">Problem Statement: How may we help SMEs develop and implement effective sales & performance processes and monitoring that are able to attract, retain and grow talents?</p>
               </div>
             </div> 
 
@@ -40,21 +40,24 @@ export default function RHB2023() {
             
             <div className='py-3'>
                 <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">The Problem 😔</h3>        
-                <p className="text-gray-400 pt-4">A cashless society offers convenience in purchasing, but increases the risk of overspending, particularly for impulsive young people. Effective financial management requires controlling expenses. Unfortunately, existing mobile banking apps fail to provide satisfactory expense management for Gen Z.</p>
+                <p className="text-gray-400 pt-4">
+                    SME owners are really busy as they lack the time and manpower to improve their business. Freeing up time for owners is the most valuable thing for SMEs so that owners can focus on things like inventory, sales and financing.
+                </p>
             </div>
             <div className='py-3'>
-                <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">The Solution: Zee 🫣</h3>        
-                <p className="text-gray-400 pt-4">Zee by RHB in the mobile banking app offers Gen Z an expense management experience. It uses a Tinder-like interface to categorize expenses and provides weekly feedback. Stay mindful of your spending, even during those unexpected moments. 🫣</p>
+                <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">The Solution: #NowEveryoneCanAI 🫣</h3>        
+                <p className="text-gray-400 pt-4">
+                    We turn any WhatsApp line into a business assistant in less than 5 minutes! Simply scan a QR code, pick a profile and customise AI training and AI is ready to help your business!
+                </p>
             </div>
             <div className='py-3'>
                 <h3 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white'>Tech Stack 💻</h3>
-                <p className='text-gray-400 pt-4'>NextJS, React, Tailwind, CSS, ChakraUI</p>                    
+                <p className='text-gray-400 pt-4'>ChatGPT API, express.js, node.js, ejs</p>                    
             </div>
             <div className='py-3'>
                 <h3 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white'>Additional Info 📚</h3>
                 <ul  className='text-gray-400 pt-4 list-disc list-inside'>
-                    <li>Did not manage to qualify Top 10 out of 100 teams 😕</li>
-                    <li>It is my first hackthon</li>
+                    <li>To be coming soon 😕</li>
                 </ul>
             </div>              
             </div>
@@ -62,7 +65,7 @@ export default function RHB2023() {
             <Footer />
         </section>
         </main>
-        </div>
+    </div>
     );
     
 };
