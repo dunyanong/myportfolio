@@ -18,7 +18,7 @@ const About = () => {
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className="px-10 sm:px-11 md:px-12 py-5 sm:py-6 md:py-0 max-w-3xl mx-auto w-screen">
+      <main className="px-10 sm:px-5 md:px-12 py-5 sm:py-6 md:py-0 max-w-3xl mx-auto w-screen">
           <section className="min-h-screen">
           <div>
             <Navbar />
@@ -27,14 +27,13 @@ const About = () => {
             {/* About */}
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
-                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Hello 👋 !</h1>
-                <p className="text-gray-400 py-4">Hey, I am Dun Yan and currently working as a software engineer.</p>
+                <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">About Me 👋</h1>
+                <p className="text-gray-400 pt-4 pb-14">Hey, I am Dun Yan and currently working as a software engineer.</p>
               </div>
             </div>  
-
-            <hr className="w-full border-1 border-gray-800 mb-8" />
-
-            <div className="flex flex-col-reverse sm:flex-row items-start">              
+            
+            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>My Story 🚗</h2>
+            <div className="flex flex-col-reverse sm:flex-row items-start">      
               <div className="flex flex-col pr-8">
                 <p className="text-gray-400 py-4">At the age of 15, I began my journey of learning Python and other libraries such as Pandas, Numpy, and Matplotlib.</p>
                 <p className="text-gray-400 py-4">My focus is on mastering skills such as JavaScript, Typescript, React.js, Express.js, MongoDB and Flutter. Alongside these technical skills, I also honed my understanding of data structures and algorithms, which are essential tools for any engineer.</p>
