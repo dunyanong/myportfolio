@@ -57,7 +57,8 @@ export default function Impact2023() {
             <div className='py-3'>
                 <h3 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white'>Additional Info 📚</h3>
                 <ul  className='text-gray-400 pt-4 list-disc list-inside'>
-                    <li>To be coming soon 😕</li>
+                    <li>Glad to have my hackathon-shark CTO to guide me for this hackathon</li>
+                    <li>Key lessons: Don't be afraid to pivot quickly and focus on the judges instead of the mentors</li>
                 </ul>
             </div>              
             </div>
