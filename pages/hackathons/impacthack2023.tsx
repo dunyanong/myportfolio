@@ -41,7 +41,7 @@ export default function Impact2023() {
             <div className='py-3'>
                 <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">The Problem 😔</h3>        
                 <p className="text-gray-400 pt-4">
-                    SME owners are really busy as they lack the time and manpower to improve their business. Freeing up time for owners is the most valuable thing for SMEs so that owners can focus on things like inventory, sales and financing.
+                    There are around 1 million SMEs in Malaysia. 90% of them are from the service sector and 80% are micro enterprises which are companies with less than 5 people.Hence, SME owners are really busy as they lack time and manpower to improve their businesses. Freeing up time for owners is the most valuable thing for SMEs so that owners can focus on things like inventory, sales and financing. How can we combat these issues?
                 </p>
             </div>
             <div className='py-3'>
@@ -52,7 +52,7 @@ export default function Impact2023() {
             </div>
             <div className='py-3'>
                 <h3 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white'>Tech Stack 💻</h3>
-                <p className='text-gray-400 pt-4'>ChatGPT API, express.js, node.js, ejs</p>                    
+                <p className='text-gray-400 pt-4'>OpenAI's ChatGPT API, express.js, node.js, ejs, javascript</p>                    
             </div>
             <div className='py-3'>
                 <h3 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white'>Additional Info 📚</h3>
