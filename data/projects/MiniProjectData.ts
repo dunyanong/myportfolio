@@ -1,5 +1,13 @@
 const MiniProjectData = [
     {
+        id: 7,
+        title: 'Amazon Price Algorithm',
+        description: "This is a Python program that compares prices of products from Amazon.sg. It retrieves the product details and prices from the provided URLs and displays the lowest price along with its corresponding URL.        ",
+        techStack: 'Python',
+        projectLink: "https://github.com/dunyanong/Amazon-Price-Algorithm",
+        githubLink: "https://github.com/dunyanong/Amazon-Price-Algorithm"
+    },
+    {
         id: 6,
         title: 'AI Hand Detector',
         description: "A hand detector with 2000 pictures showcasing various hand positions and gestures. Each picture is labeled with descriptions, totaling 6000 labels.",
