@@ -5,6 +5,9 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  colors: {
+    'uniqueGray': '#191919',
+  },
   theme: {
     extend: {
       fontFamily: {

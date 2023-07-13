@@ -26,7 +26,7 @@ const Home = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Hackathons  🚀</h1>
-                <p className="text-gray-400 py-4">
+                <p className="  text-gray-300 py-4">
                 As an avid participant in hackathons, I have documented my exhilarating experiences and accomplishments in various hackathons.
                 Explore my Hackathon Journey, dive into the projects I've built!
                 </p>

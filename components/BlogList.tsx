@@ -23,7 +23,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
 }) => (
   <div className="my-5">
     <a href={bloglink} target="_blank" rel="noopener noreferrer">
-      <div className="rounded overflow-hidden bg-black duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
+      <div className="rounded overflow-hidden   duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
         <div className="mb-8">
           <div className={'inline-block items-center ' + tagColor + ' rounded-lg px-2 mr-2 mb-2'}>
             <p className="text-xs text-gray-700 font-medium flex items-center">{difficulty}</p>

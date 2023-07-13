@@ -60,7 +60,7 @@ const gallery = () => {
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Photo Gallery 📸</h1>
-              <p className="text-gray-400 py-4">These are some pictures that I gave myself as a gift to evoke feelings of nostalgia.</p>
+              <p className="  text-gray-300 py-4">These are some pictures that I gave myself as a gift to evoke feelings of nostalgia.</p>
             </div>
           </div>
   
@@ -85,7 +85,7 @@ const gallery = () => {
               />
 
               {hoveredIndex === index && (                  
-                <motion.div className="absolute bottom-0 right-0 m-2 bg-black bg-opacity-50 rounded-lg p-2"
+                <motion.div className="absolute bottom-0 right-0 m-2   bg-opacity-50 rounded-lg p-2"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 3 }}
                   transition={{ duration: 1 }}

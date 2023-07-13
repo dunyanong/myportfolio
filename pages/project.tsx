@@ -31,8 +31,8 @@ const project = () => {
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Personal Projects 🧠</h1>
-            <p className="text-gray-400 py-4">I have been working on some personal projects in order to gain further knowledge about various libraries and browser APIs.</p>
-            <p className="text-gray-400 pb-8">Experimenting with the latest technology in small projects and sharing them on GitHub is a fulfilling activity. Not only does it serve as a personal record of one's work, but it also benefits others who are seeking examples.</p>
+            <p className="  text-gray-300 py-4">I have been working on some personal projects in order to gain further knowledge about various libraries and browser APIs.</p>
+            <p className="text-gray-300 pb-8">Experimenting with the latest technology in small projects and sharing them on GitHub is a fulfilling activity. Not only does it serve as a personal record of one's work, but it also benefits others who are seeking examples.</p>
           </div>
         </div>  
 

@@ -36,8 +36,8 @@ export default function Home() {
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Ong Dun Yan</h1>
-            <h2 className="text-gray-200 mb-4">Full-Stack Engineer based in  <span className="font-semibold">Malaysia 🇲🇾 </span></h2>
-            <p className="text-gray-400 mb-4">Focus lies in the realm of software technologies and data science. Possesses a strong affection for the intricate workings of semiconductors.</p>
+            <h2 className="text-gray-200 mb-4">Based in  <span className="font-semibold">Singapore 🇸🇬 </span></h2>
+            <p className="text-gray-300 mb-4">Hey! I am a Malaysian software engineer and indie hacker working in Tech and Enineering.</p>
           </div>
           <div className="w-[80px] sm:w-[134px] h-[80px] sm:h-[134px] relative mr-auto flex-none rounded-full overflow-hidden">
             <Image src={profilePic} alt="image" priority className="w-full h-auto"/>
@@ -55,7 +55,7 @@ export default function Home() {
 
           <div className="py-5">
             <a href="https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22" target="_blank">
-              <div className="rounded overflow-hidden shadow-lg bg-black duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
+              <div className="rounded overflow-hidden      duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
                 <div className="inline-block items-center bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">Intermediate</p></div>
                   <div className="text-lg font-semibold mb-2 text-white">React: The Pros and Cons of a Popular JavaScript Library</div>
@@ -74,7 +74,7 @@ export default function Home() {
 
             <div className="py-5">
               <a href="https://www.lambdatest.com/blog/css-font-spacing/" target="_blank">
-                <div className="rounded overflow-hidden shadow-lg bg-black duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
+                <div className="rounded overflow-hidden      duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
                   <div className="mb-8">
                   <div className="inline-block items-center bg-pink-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">Technical</p></div>
                     <div className="text-lg font-semibold mb-2 text-white">Mastering CSS Font Spacing: Tips and Tricks for Perfect Typography</div>
@@ -98,7 +98,7 @@ export default function Home() {
         
         <div className='py-5'>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight py-6 text-white">Notable Project</h3>
-        <div className="py-4 pr-8 border-gray-700 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg hover:shadow-xl duration-1000">
+        <div className="py-4 pr-8 border-gray-700   bg-opacity-50 backdrop-filter backdrop-blur-lg    rounded-lg hover:shadow-xl duration-1000">
           <div className="flex items-center pb-3">
               <div>
                   <h1 className="font-semibold text-xl text-gray-200">Confessay</h1>    
@@ -108,7 +108,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
               <div className="pt-1">
-                  <p className="text-sm text-gray-400">A platform created to allow people to confess ther negative emotions openly and anonymously.</p>         
+                  <p className="text-sm text-gray-300">A platform created to allow people to confess ther negative emotions openly and anonymously.</p>         
               </div>
               </div>                
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
               </a>
           </div>
           </div>
-          <div className="py-4 pr-8 border-gray-700 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg hover:shadow-xl duration-1000">
+          <div className="py-4 pr-8 border-gray-700   bg-opacity-50 backdrop-filter backdrop-blur-lg    rounded-lg hover:shadow-xl duration-1000">
           <div className="flex items-center pb-3">
               <div>
                   <h1 className="font-semibold text-xl text-gray-200">FVG</h1>    
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
               <div className="pt-1">
-                  <p className="text-sm text-gray-400">It allows users to vote for their favorite football players (GOAT) and provides a platform for the audience to participate in the voting process.</p>         
+                  <p className="text-sm text-gray-300">It allows users to vote for their favorite football players (GOAT) and provides a platform for the audience to participate in the voting process.</p>         
               </div>
               </div>                
           </div>
