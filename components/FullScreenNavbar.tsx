@@ -8,7 +8,7 @@ interface MobileNavProps {
 
 function MobileNav({ open, setOpen }: MobileNavProps) {
   return (
-    <div className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter z-40`}>
+    <div className={`absolute top-0 left-0 h-screen w-screen   transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter z-40`}>
       <div className="flex flex-col justify-start items-center mt-28">
         <Link href="/" legacyBehavior>
           <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200">

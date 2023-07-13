@@ -27,7 +27,7 @@ interface NotableProjectsProps {
 }
 
 export const NotableProjectCard = ({id, title, description, techStack, projectLink, githubLink}: NotableProjectCardProps) => (
-    <div className="pb-4 pr-8 bg-black rounded-lg md:py-5 duration-1000 ">
+    <div className="pb-4 pr-8   rounded-lg md:py-5 duration-1000 ">
     <div className="flex items-center pb-3">
         <div>
             <h1 className="font-semibold text-xl text-gray-200">{title}</h1>    
@@ -37,7 +37,7 @@ export const NotableProjectCard = ({id, title, description, techStack, projectLi
     <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
         <div className="mt-1">
-            <p className="text-sm text-gray-400">{description}</p>         
+            <p className="text-sm text-gray-300">{description}</p>         
         </div>
         </div>                
     </div>

@@ -9,7 +9,7 @@ interface MyAppProps {
 const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
   return (
     <ChakraProvider>
-      <div className='bg-black w-full'>
+      <div className='bg-neutral-900 w-full'>
         <Component {...pageProps} />
       </div>
     </ChakraProvider>

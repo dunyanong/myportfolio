@@ -62,7 +62,7 @@ const Certs = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Certificates 📜</h1>
-                <p className="text-gray-400 py-4">Welcome to my Certificates page! Here you can view all of my programming certificates, which showcase the various skills and technologies I have mastered.</p>
+                <p className="  text-gray-300 py-4">Welcome to my Certificates page! Here you can view all of my programming certificates, which showcase the various skills and technologies I have mastered.</p>
               </div>
             </div>  
 
