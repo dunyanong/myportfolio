@@ -1,4 +1,4 @@
-import { FaLink, FaCode } from 'react-icons/fa';
+import { FaLink, FaCode, FaTools} from 'react-icons/fa';
 
 // Define a type interface for MiniProject
 interface MiniProject {
@@ -22,8 +22,11 @@ export const MiniProjectCard = ({id, title, description, techStack, projectLink,
     <div className="pb-4 pr-8   rounded-lg md:py-5 duration-1000">
     <div className="flex items-center pb-3">
         <div>
-            <h1 className="font-semibold text-xl text-gray-200">{title}</h1>    
-            <p className='text-xs text-cyan-500 font-semibold'>{techStack}</p>
+            <h1 className="font-bold text-xl text-gray-200 pb-1">{title}</h1>    
+            <p className='text-xs text-white font-semibold flex gap-2 items-center'>
+                <FaTools className='text-cyan-200'/>
+                Tech: {techStack}
+            </p>
         </div>            
     </div>
     <div className="flex justify-between items-center">

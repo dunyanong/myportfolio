@@ -49,10 +49,10 @@ const Blogs = () => {
           </div>
             {/* List of Articles */}
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Blog ✍️</h1>
-            <p className="py-4 text-gray-400">
+            <p className="py-4 text-gray-300">
               I am passionate about writing blogs on web development, covering topics ranging from frontend, backend, and mobile development.               
             </p> 
-            <p className="pt-1 pb-4 text-gray-400">              
+            <p className="pt-1 pb-4 text-gray-300">              
               You can use the search function below to filter by title and easily find the content you're looking for.
             </p>                        
 

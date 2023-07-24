@@ -40,8 +40,8 @@ const Home = () => {
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white" />
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400  flex gap-2"><SlCalender/> June 2023</time>
-                    <h3 className="text-lg font-semibold text-gray-300">Impacthack</h3>
-                    <p className="mb-4 text-base font-normal text-gray-400">Create an impact in the Malaysian SME ecosystem.</p>
+                    <h3 className="text-lg font-semibold text-gray-100">Impacthack</h3>
+                    <p className="mb-4 text-base font-normal text-gray-300">Create an impact in the Malaysian SME ecosystem.</p>
                     <Link href="/hackathons/impacthack2023" legacyBehavior>
                         <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-300 border border-gray-200 rounded-lg">Learn more <svg className="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" /></svg></a>
                     </Link>
@@ -49,8 +49,8 @@ const Home = () => {
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white" />
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 flex gap-2"><SlCalender/> May 2023</time>
-                    <h3 className="text-lg font-semibold text-gray-300">Payhack</h3>
-                    <p className="mb-4 text-base font-normal text-gray-400">How might we directly contribute towards environmental conservation or any of the Sustainable Development Goals 2030 through the digital payments space?</p>
+                    <h3 className="text-lg font-semibold text-gray-100">Payhack</h3>
+                    <p className="mb-4 text-base font-normal text-gray-300">How might we directly contribute towards environmental conservation or any of the Sustainable Development Goals 2030 through the digital payments space?</p>
                     <Link href="/hackathons/payhack2023" legacyBehavior>
                         <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-300 border border-gray-200 rounded-lg">Learn more <svg className="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" /></svg></a>
                     </Link>
@@ -58,8 +58,8 @@ const Home = () => {
                 <li className="ml-4">
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white" />
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 flex gap-2"><SlCalender/> January 2023</time>
-                    <h3 className="text-lg font-semibold text-gray-300">RHB Hack</h3>
-                    <p className="mb-4 text-base font-normal text-gray-400 ">How might we help the young adults in developing financial literacy to grow their wealth at an early age?</p>
+                    <h3 className="text-lg font-semibold text-gray-100">RHB Hack</h3>
+                    <p className="mb-4 text-base font-normal text-gray-300 ">How might we help the young adults in developing financial literacy to grow their wealth at an early age?</p>
                     <Link href="/hackathons/RHB2023" legacyBehavior>
                         <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-300 border border-gray-200 rounded-lg">Learn more <svg className="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" /></svg></a>
                     </Link>
