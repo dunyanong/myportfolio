@@ -29,7 +29,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
             <p className="text-xs text-gray-700 font-medium flex items-center">{difficulty}</p>
           </div>
           <div className="text-lg font-semibold mb-2 text-white">{title}</div>
-          <p className="text-gray-300 text-xs">{description}</p>
+          <p className="text-gray-300 text-sm">{description}</p>
         </div>
         <div className="flex items-center">
           <Image src={image} className="w-10 h-10 rounded-full mr-4" alt="image" />

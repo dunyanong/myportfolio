@@ -32,20 +32,10 @@ const Footer = () => {
                             <Link href="/gallery" legacyBehavior>
                             <a className="hover:underline">Photos</a>
                             </Link>
-                        </li>                        
-                        <li className="pb-4">
-                            <a className="hover:underline" href='https://drive.google.com/file/d/1Ht0urYBCQgHCizLmCsGT3VmaAbbPN1e4/view?usp=share_link' target='_blank'>
-                                Resume
-                            </a>       
-                        </li>                                 
+                        </li>                            
                     </ul>
 
-                    <ul className="text-gray-500">
-                        <li className="pb-4">
-                            <Link href="about/certs" legacyBehavior>
-                            <a className="hover:underline">Certificates</a>
-                            </Link>
-                        </li>                                                
+                    <ul className="text-gray-500">                                            
                         <li className="pb-4">
                             <a href="https://twitter.com/dun_yan_" className="hover:underline" target="_blank">Twitter</a>
                         </li>                        

@@ -41,7 +41,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ blogs }) => {
             onChange={handleSearch}
             placeholder="🔍 Search blogs"
             id="default-search"
-            className="block w-full px-4 py-2 border rounded-md border-gray-900 focus:ring-blue-500 focus:border-blue-500 bg-zinc-900 text-gray-100"
+            className="block w-full px-4 py-2 border rounded-md border-gray-600 focus:ring-blue-500 focus:border-blue-500 bg-zinc-900 text-gray-100"
           />
         </div>
       </form>
