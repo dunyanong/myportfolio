@@ -28,7 +28,7 @@ const About = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">About Me 👋</h1>
-                <p className="text-gray-100 pt-4 pb-5">Hey, I'm Dun Yan. A full time electrical and electronic undergraduate and part-time software engineer (who dabbles with investments).</p>
+                <p className="text-gray-100 pt-4 pb-5">Hey, I'm Dun Yan. A full time electrical and electronic engineering undergraduate and part-time software engineer (who dabbles with investments).</p>
               </div>
             </div>  
             
@@ -37,10 +37,18 @@ const About = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">      
               <ol className="flex flex-col pr-8 list-decimal list-inside">
                 <li className="text-gray-100 py-2">👨🏼‍⚕️ I am currently an undergraduate studying electrical and electronic engineering at Nanyang Technological University, with an expected graduation in 2027.</li>
-                <li className="text-gray-100 py-2">🎮 My journey began at the age of 15 when I started learning data analytical Python libraries such as Pandas, Numpy, Matplotlib, and Seaborn. I later shifted my specialization towards software engineering.</li>
-                <li className="text-gray-100 py-2">🤑 I provide freelance projects, helping companies go from zero to one.</li>
+                <li className="text-gray-100 py-2">🤑 I provide freelance software projects, helping companies go from zero to one.</li>
                 <li className="text-gray-100 py-2">✍️ On this website, I write articles about productivity, software engineering, and generic programming advice that I have found helpful over the years.</li>
-                <li className="text-gray-100 py-2">👨‍💻 I enjoy participating in <Link href="/hackathons" legacyBehavior><a target="_blank" className='font-semibold text-cyan-200'>hackathons</a></Link> which have allowed me to meet various new people.</li>
+                <li className="text-gray-100 py-2">👨‍💻 I participate in various <Link href="/hackathons" legacyBehavior><a target="_blank" className='font-semibold text-cyan-200'>hackathons</a></Link> which have allowed me to meet various new people.</li>
+              </ol>
+            </div>
+
+            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>Other Stuffs</h2>
+            <div className="flex flex-col-reverse sm:flex-row items-start">      
+              <ol className="flex flex-col pr-8 list-decimal list-inside">
+                <li className="text-gray-100 py-2">🎮 My journey began at the age of 15 when I started learning data analytical Python libraries such as Pandas, Numpy, Matplotlib, and Seaborn. I later shifted my specialization towards software engineering.</li>
+                <li className="text-gray-100 py-2">🚀 During my free time, I often read up cool technological fields like blockchain, data science and IoT.</li>
+                <li className="text-gray-100 py-2">⚽ I enjoy playing football competitively for fun :)</li>
               </ol>
             </div>
 
