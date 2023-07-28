@@ -34,7 +34,7 @@ const MiniProjectData = [
     {
         id: 3,
         title: 'Mern Stack AI Generator',
-        description: "web application that uses the MERN stack and DALL E's machine learning algorithms to generate personalized and intelligent content",
+        description: "Web application that uses the MERN stack and DALL E's machine learning algorithms to generate personalized and intelligent content.",
         techStack: 'ViteJS + React + NodeJS + Express + MongoDB',
         projectLink: "https://ai-art-generator.vercel.app/",
         githubLink: "https://github.com/dunyanong/AI-Image-Generator"

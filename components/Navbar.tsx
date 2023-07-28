@@ -12,35 +12,35 @@ const Navbar = () => {
         <ul className="flex justify-between gap-5">
           <li>
             <Link href="/" legacyBehavior>
-              <a className="text-base  font-semibold my-4 text-gray-500 hover:text-gray-200">
+              <a className="text-base  font-semibold my-4 text-gray-300 hover:text-gray-100">
                 Home
               </a>
             </Link>
           </li>
           <li>
             <Link href="/about" legacyBehavior>
-              <a className="text-base  font-semibold my-4 text-gray-500 hover:text-gray-200">
+              <a className="text-base  font-semibold my-4 text-gray-300 hover:text-gray-100">
                 About
               </a>
             </Link>
           </li>
           <li>
             <Link href="/project" legacyBehavior>
-              <a className="text-base  font-semibold my-4 text-gray-500 hover:text-gray-200">
+              <a className="text-base  font-semibold my-4 text-gray-300 hover:text-gray-100">
                 Projects
               </a>
             </Link>
           </li>          
           <li>
             <Link legacyBehavior href="/blogs">
-              <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200">
+              <a className="text-base font-semibold my-4 text-gray-300 hover:text-gray-100">
                 Blog
               </a>
             </Link>
           </li>
           <li>            
           <Link legacyBehavior href="/hackathons">
-              <a className="text-base font-semibold my-4 text-gray-500 hover:text-gray-200">
+              <a className="text-base font-semibold my-4 text-gray-300 hover:text-gray-100">
                 Hackathons
               </a>
             </Link>

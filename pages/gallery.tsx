@@ -60,7 +60,7 @@ const gallery = () => {
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Photo Gallery 📸</h1>
-              <p className="  text-gray-300 py-4">These are some pictures that I gave myself as a gift to evoke feelings of nostalgia.</p>
+              <p className="  text-gray-100 py-4">These are some pictures that I gave myself as a gift to evoke feelings of nostalgia.</p>
             </div>
           </div>
   
