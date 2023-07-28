@@ -28,25 +28,25 @@ const About = () => {
             <div className="flex flex-col-reverse sm:flex-row items-start">
               <div className="flex flex-col pr-8">
                 <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">About Me 👋</h1>
-                <p className="text-gray-300 pt-4 pb-14">Hey, I am Dun Yan and currently working as a software engineer.</p>
+                <p className="text-gray-100 pt-4 pb-5">Hey, I'm Dun Yan. A full time electrical and electronic undergraduate and part-time software engineer (who dabbles with investments).</p>
               </div>
             </div>  
             
-            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>My Story 🚗</h2>
+            
+            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>Quick Facts About Me</h2>
             <div className="flex flex-col-reverse sm:flex-row items-start">      
-              <div className="flex flex-col pr-8">
-                <p className="  text-gray-300 py-4">At the age of 15, I began my journey of learning Python and other libraries such as Pandas, Numpy, and Matplotlib.</p>
-                <p className="  text-gray-300 py-4">My focus is on mastering skills such as JavaScript, Typescript, React.js, Express.js, MongoDB and Flutter. Alongside these technical skills, I also honed my understanding of data structures and algorithms, which are essential tools for any engineer.</p>
-                <p className="  text-gray-300 py-4">My passion for coding is complemented by a strong interest in emerging technologies such as semiconductors, AI & blockchain. I find these topics fascinating and make a point to stay updated on the latest developments in these fields.</p>
-                <p className="  text-gray-300 py-4">I enjoy simplifying complex concepts through writing blogs and participating in <Link href="/hackathons" legacyBehavior><a target="_blank" className='font-semibold'>hackathons</a></Link>. Writing articles that make difficult ideas easy to understand is rewarding, and hackathons are a fun way to collaborate and innovate.</p>
-              </div>
-            </div>  
+              <ol className="flex flex-col pr-8 list-decimal list-inside">
+                <li className="text-gray-100 py-2">👨🏼‍⚕️ I am currently an undergraduate studying electrical and electronic engineering at Nanyang Technological University, with an expected graduation in 2027.</li>
+                <li className="text-gray-100 py-2">🎮 My journey began at the age of 15 when I started learning data analytical Python libraries such as Pandas, Numpy, Matplotlib, and Seaborn. I later shifted my specialization towards software engineering.</li>
+                <li className="text-gray-100 py-2">🤑 I provide freelance projects, helping companies go from zero to one.</li>
+                <li className="text-gray-100 py-2">✍️ On this website, I write articles about productivity, software engineering, and generic programming advice that I have found helpful over the years.</li>
+                <li className="text-gray-100 py-2">👨‍💻 I enjoy participating in <Link href="/hackathons" legacyBehavior><a target="_blank" className='font-semibold text-cyan-200'>hackathons</a></Link> which have allowed me to meet various new people.</li>
+              </ol>
+            </div>
 
             <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>Contact ☕</h2>
-            <p className='text-gray-300 pb-8'>Don't hesitate in reaching out if you would like to work together. Grabbing a virtual/physical chat? Building new web projects or improving existing ones? Contact me on Twitter!</p>
-
-            <h2 className='font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white pb-4'>More info about me? 🤔</h2>
-            <p className='text-gray-300 pb-8'>You can follow me on <a href="https://twitter.com/dun_yan_" target="_blank" className='font-semibold'>Twitter at @dun_yan_</a> , where I post about web development, or check my <a href="https://github.com/dunyanong/" className='font-semibold' target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/dunyan/" className='font-semibold' target="_blank">LinkedIn</a> profiles.</p>          
+            <p className='text-gray-100 pb-2'>Don't hesitate in reaching out if you would like to work together. Grabbing a virtual/physical chat? Building new web projects or improving existing ones? Contact me on Twitter!</p>
+            <p className='text-gray-100 pb-8'>You can follow me on <a href="https://twitter.com/dun_yan_" target="_blank" className='font-semibold text-cyan-200'>Twitter at @dun_yan_</a> , where I post about web development, or check my <a href="https://github.com/dunyanong/" className='font-semibold text-cyan-200' target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/dunyan/" className='font-semibold text-cyan-200' target="_blank">LinkedIn</a> profiles.</p>          
 
             <div className="flex flex-col gap-2 md:flex-row md:gap-2">
               <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/dun_yan_" className="flex w-full border border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-200 hover:bg-neutral-900 transition-all justify-between">

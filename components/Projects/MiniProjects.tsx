@@ -32,7 +32,7 @@ export const MiniProjectCard = ({id, title, description, techStack, projectLink,
     <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
         <div className="mt-1">
-            <p className="text-sm text-gray-300">{description}</p>         
+            <p className="text-sm text-gray-100">{description}</p>         
         </div>
         </div>                
     </div>
