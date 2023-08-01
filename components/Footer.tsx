@@ -45,7 +45,7 @@ const Footer = () => {
                     </ul>
             </div>
             <div className="px-6 py-6 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center">© 2022 Ong Dun Yan. All Rights Reserved.
+                <span className="text-sm text-gray-500 sm:text-center">© 2023 Ong Dun Yan. All Rights Reserved.
                 </span>
             </div>
         </footer>
