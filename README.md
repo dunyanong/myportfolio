@@ -9,6 +9,7 @@ This portfolio is built using a variety of technologies including:
 - Typescript
 - CSS
 - Tsx
+- Docker
 
 It showcases my work and experiences as a developer. Feel free to explore the different sections and projects featured.
 

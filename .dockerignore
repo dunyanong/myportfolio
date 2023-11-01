@@ -1,0 +1,21 @@
+# Exclude files and directories commonly not needed in a Docker image
+.git
+node_modules
+*.log
+*.json
+*.lock
+
+# Exclude development and build-related files
+Dockerfile
+docker-compose.yml
+Makefile
+*.md
+tests
+coverage
+
+# Exclude version control and package manager configuration files
+.gitignore
+npm-debug.log
+
+# Exclude any other files or directories that are not needed in the image
+# Add more lines here as necessary
