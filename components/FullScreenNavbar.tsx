@@ -30,11 +30,6 @@ function MobileNav({open, setOpen}: MobileNavProps){
                         Blogs
                     </a>                
                 </Link>
-                <Link legacyBehavior href="/hackathons">
-                    <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200">
-                        Hackathons
-                    </a>                
-                </Link>
             </div>  
         </div>
     )
