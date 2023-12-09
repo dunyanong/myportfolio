@@ -38,12 +38,7 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-          <li>            
-          <Link legacyBehavior href="/hackathons">
-              <a className="text-base font-semibold my-4 text-gray-300 hover:text-gray-100">
-                Hackathons
-              </a>
-            </Link>
+          <li>
           </li>
         </ul>
       </div>
