@@ -15,9 +15,9 @@ function MobileNav({open, setOpen}: MobileNavProps){
                         Home
                     </a>
                 </Link>
-                <Link href="/about" legacyBehavior>
+                <Link href="/work" legacyBehavior>
                     <a className="text-md font-bold my-4 text-gray-200 hover:text-gray-200">                     
-                      About   
+                        Work   
                     </a>
                 </Link>
                 <Link href="/project" legacyBehavior>

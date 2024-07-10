@@ -63,7 +63,6 @@ export default function Impact2023() {
             </div>              
             </div>
             </div>
-            <Footer />
         </section>
         </main>
     </div>

@@ -60,7 +60,6 @@ const Blogs = () => {
               <SearchBar blogs={BlogData} onSearch={handleSearch} />
             </div>      
 
-            <Footer />
         </section>
       </main>
     </div>

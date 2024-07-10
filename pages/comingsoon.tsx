@@ -35,9 +35,7 @@ const commingsoon = () => {
               <Image src={construction} alt='construction'/>
             </div>
         </section>
-``
-        {/* Footer */}
-        <Footer />
+
       </main>
     </div>
   );

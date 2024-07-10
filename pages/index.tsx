@@ -1,17 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/Footer';
-
-import profilePic from '../images/my-pictures/avatar.png';
-import medium from '../data/blogs/logo-img/Medium.png';
-import lambdatest from '../data/blogs/logo-img/Lambdatest.png'
 
 // Project Dataset
 import Navbar from '../components/Navbar';
-import Link from 'next/link';
 
 // icons
-import { FaCode, FaLink, FaTools } from 'react-icons/fa';
+import Gallery from '../components/gallery';
+import TwitterFollowers from '../components/twitter';
 
 export default function Home() {
 
@@ -35,132 +29,166 @@ export default function Home() {
         </div> 
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">Ong Dun Yan</h1>
-            <h2 className="text-gray-200 mb-4">Based in  <span className="font-semibold">Singapore 🇸🇬 </span></h2>
-            <p className="text-gray-100 mb-4">Hey! I am a Malaysian software engineer and indie hacker working in Tech and Engineering.</p>
-          </div>
-          <div className="w-[80px] sm:w-[134px] h-[80px] sm:h-[134px] relative mr-auto flex-none rounded-full overflow-hidden">
-            <Image src={profilePic} alt="image" priority className="w-full h-auto"/>
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white font-Wittgenstein">Hey, I'm Dun Yan 👋</h1>
+            <h2 className="text-gray-300 mb-4">Based in  <span className="font-semibold">Singapore 🇸🇬 </span></h2>
+            <p className="text-gray-300 mb-4">Welcome to my little corner of the internet! I'm a Malaysian software engineer and indie hacker with a passion for Tech and Engineering. Currently, I'm pursuing a degree in Electrical and Electronic Engineering at Nanyang Technological University of Singapore.</p>
+            <p className='text-gray-300 mb-4 italic'>
+              (This site is meant to be informal and layman <span className='not-italic'>🤩</span>)
+            </p>
           </div>
         </div>  
 
-        <Link className="flex items-center pt-2 pb-8 text-gray-400 leading-7 rounded-lg hover:text-gray-200 transition-all h-6" href="/gallery">
-          <p>Photo gallery</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-6 w-6 ml-1"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"></path></svg>
-        </Link>
+        <div className="flex flex-col pr-8">
+          <h3 className="font-bold text-lg md:text-2xl tracking-tight py-2 text-gray-200">What is my work focused on?</h3>
+          <p className="text-gray-300 mb-4">
+            Ironically, despite being in a hardware-heavy course, I have a strong passion for software development. My favorite language is Go Lang, and I love tinkering with hardware and electromagnets.
+          </p>
+          <p className="text-gray-300 mb-4">
+            Right now, I'm diving into a research project on wireless charging under the guidance of Professor Christopher Ho.            
+          </p>
+
+
+
+        </div>
+
+        <Gallery />
+  
+        <div className="text-gray-200 py-5">
+          <p>
+            Over the past few years, I've been writing content on my blog, focusing on simplicity. You'll find posts about the technologies I'm currently interested in, as well as my career growth and learning experiences, sharing knowledge throughout the journey.
+          </p>
+        </div>
+
+        <div className="py-2">
+          <a 
+            href="/blog/developer-experience" 
+            className="flex w-full items-center justify-between rounded border  px-3 py-4 border-neutral-700 bg-neutral-800"
+          >
+            <div className="flex flex-col">
+              <p className="font-medium text-neutral-50">
+                What Makes A Great Developer Experience?
+              </p>
+              <p className="text-neutral-200">
+                51,975 views
+              </p>
+            </div>
+            <div className="transform text-neutral-300 transition-transform duration-300 group-hover:-rotate-12">
+              <svg 
+                width="12" 
+                height="12" 
+                viewBox="0 0 12 12" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" 
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <div className="py-2">
+          <a 
+            href="/blog/developer-experience" 
+            className="flex w-full items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800"
+          >
+            <div className="flex flex-col">
+              <p className="font-medium text-neutral-50">
+                What Makes A Great Developer Experience?
+              </p>
+              <p className="text-neutral-200">
+                51,975 views
+              </p>
+            </div>
+            <div className="transform text-neutral-300 transition-transform duration-300 group-hover:-rotate-12">
+              <svg 
+                width="12" 
+                height="12" 
+                viewBox="0 0 12 12" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" 
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <div className="text-gray-200 py-5">
+          <p>
+            Used to tweet tiny bits of my life as well. Feel free to follow :)
+          </p>
+        </div>
+
+        <TwitterFollowers />
+
 
         
-        <div className='py-5'>
-          <h3 className="font-bold text-2xl md:text-4xl tracking-tight pt-6 text-white">Featured Blogs</h3>
-
-          <div className="py-5">
-            <a href="https://medium.com/@dunyan/react-the-pros-and-cons-of-a-popular-javascript-library-6e1e443a3e22" target="_blank">
-              <div className="rounded overflow-hidden      duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                <div className="inline-block items-center bg-cyan-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">Intermediate</p></div>
-                  <div className="text-lg font-semibold mb-2 text-white">React: The Pros and Cons of a Popular JavaScript Library</div>
-                  <p className="text-gray-100 text-sm">In this article, we will take a closer look at the benefits and drawbacks of using React, helping you make an informed decision on whether it is the right choice for you.</p>
-                </div>
-                <div className="flex items-center">
-                  <Image src={medium} className="w-10 h-10 rounded-full mr-4" alt="image" />
-                  <div className="text-sm">
-                    <p className="text-gray-100 leading-none">Medium</p>
-                    <p className="text-gray-100">January 2023</p>
-                  </div>
-                </div>
-              </div>
-            </a> 
-            </div>  
-
-            <div className="py-5">
-              <a href="https://www.lambdatest.com/blog/css-font-spacing/" target="_blank">
-                <div className="rounded overflow-hidden      duration-200 rounded-b md:rounded-b-none md:rounded-r pr-4 py-4 flex flex-col justify-between leading-normal">
-                  <div className="mb-8">
-                  <div className="inline-block items-center bg-pink-200 rounded-lg px-2 mr-2 mb-2"><p className="text-xs text-gray-700 font-medium flex items-center">Technical</p></div>
-                    <div className="text-lg font-semibold mb-2 text-white">Mastering CSS Font Spacing: Tips and Tricks for Perfect Typography</div>
-                    <p className="text-gray-100 text-sm">This blog on CSS Font Spacing will cover everything you need to know about typography and font spacing in CSS and the different ways of achieving that.</p>
-                  </div>
-                  <div className="flex items-center">
-                    <Image src={lambdatest} className="w-10 h-10 rounded-full mr-4" alt="image" />
-                    <div className="text-sm">
-                      <p className="text-gray-100 leading-none">Lambdatest</p>
-                      <p className="text-gray-100">January 2023</p>
-                    </div>
-                  </div>
-                </div>
-              </a> 
-            </div>                     
-          <Link className="flex items-center pt-8 text-gray-400 leading-7 rounded-lg hover:text-gray-200 transition-all h-6" href="/blogs">
-            <p>Read all blogs</p>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-6 w-6 ml-1"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"></path></svg>
-          </Link>
+        <div className="text-gray-200 pt-5">
+          <h3 className="font-bold text-lg md:text-2xl tracking-tight py-2 text-gray-200">Some Fun Facts</h3>
+          <ul className='list-disc pl-5 text-gray-200'>
+            <li>I enjoy footballing (British football pls), hiking, blogging, organising clubs events</li>
+            <li>I have a unique hobby: participating in hackathons. I plan to retire from this once I reach double-digit wins!</li>
+          </ul>
         </div>
-        
-        <div className='py-5'>
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight py-6 text-white">Notable Project</h3>
-        <div className="py-4 pr-8 border-gray-700   bg-opacity-50 backdrop-filter backdrop-blur-lg    rounded-lg hover:shadow-xl duration-1000">
-          <div className="flex items-center pb-3">
-              <div>
-                  <h1 className="font-semibold text-xl text-gray-200">Confessay</h1>
-                  <p className='text-xs text-white font-semibold flex gap-2 items-center'><FaTools className='text-cyan-200'/>Tech: NextJS + DaisyUI + ReactJS + Tailwind + Firebase</p>
-              </div>            
-          </div>
-          <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2">
-              <div className="pt-1">
-                  <p className="text-sm text-gray-100">A platform created to allow people to confess ther negative emotions openly and anonymously.</p>         
-              </div>
-              </div>                
-          </div>
 
-          <div className="py-4 flex justify-start gap-4 items-center">
-              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://confessay.vercel.app" target="_blank">
-                  <FaLink className="mr-1" size={18} />
-                  <p>Link</p>
-              </a>
-              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://github.com/dunyanong/confessay" target="_blank">
-                  <FaCode className="mr-1" size={18} />
-                  <p>Code</p>
-              </a>
-          </div>
-          </div>
-          <div className="py-4 pr-8 border-gray-700   bg-opacity-50 backdrop-filter backdrop-blur-lg    rounded-lg hover:shadow-xl duration-1000">
-          <div className="flex items-center pb-3">
-              <div>
-                  <h1 className="font-semibold text-xl text-gray-200">FVG</h1>
-                  <p className='text-xs text-white font-semibold flex gap-2 items-center'><FaTools className='text-cyan-200'/>Tech: NextJS + DaisyUI + ReactJS + Tailwind + Firebase</p>
-              </div>
-          </div>
-          <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2">
-              <div className="pt-1">
-                  <p className="text-sm text-gray-100">It allows users to vote for their favorite football players (GOAT) and provides a platform for the audience to participate in the voting process.</p>         
-              </div>
-              </div>                
-          </div>
-
-          <div className="py-4 flex justify-start gap-4 items-center">
-              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://fvg.vercel.app" target="_blank">
-                  <FaLink className="mr-1" size={18} />
-                  <p>Link</p>
-              </a>
-              <a className="flex justify-between text-gray-400 text-sm whitespace-pre-line break-words" href="https://github.com/dunyanong/FGV" target="_blank">
-                  <FaCode className="mr-1" size={18} />
-                  <p>Code</p>
-              </a>
-          </div>
-          </div>          
-          <Link className="flex items-center pt-8 text-gray-400 leading-7 rounded-lg hover:text-gray-200 transition-all h-6" href="/project">
-            <p>Explore all projects</p>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-6 w-6 ml-1"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"></path></svg>
-          </Link>
-        </div>
 
         </section>
 
-        {/*Footer*/}
-        <Footer />
+        <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2  md:flex-row md:space-x-4 md:space-y-0 text-neutral-300">
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-100"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://twitter.com/dun_yan_"
+            >
+              <svg
+                width={12}
+                height={12}
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <p className="ml-2 h-7">follow me</p>
+            </a>
+          </li>
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-100"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://t.me/dunyanong"
+            >
+              <svg
+                width={12}
+                height={12}
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <p className="ml-2 h-7">contact me</p>
+            </a>
+          </li>
+        </ul>
+
       </main>
+      
     </div>
   )
 }
