@@ -66,7 +66,6 @@ const Home = () => {
                 </li>
             </ol>
             </div>
-            <Footer />
         </section>
         </main>
         </div>

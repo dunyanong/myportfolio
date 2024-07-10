@@ -23,7 +23,12 @@ a {
 
 @font-face {
   font-family: "burtons";
-  src: url("../public/Burtons.otf");
+  src: url("../public/fonts/Burtons.otf");
+}
+
+@font-face {
+  font-family: "Wittgenstein";
+  src: url("../public/fonts/Wittgenstein-Regular.ttf");
 }
 
 .container {

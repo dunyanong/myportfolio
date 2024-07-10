@@ -59,7 +59,6 @@ export default function RHB2023() {
             </div>              
             </div>
             </div>
-            <Footer />
         </section>
         </main>
         </div>

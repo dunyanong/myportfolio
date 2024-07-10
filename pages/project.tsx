@@ -49,8 +49,6 @@ const project = () => {
 
         </section>
 
-        {/*Footer*/}
-        <Footer />
       </main>
     </div>
   )
