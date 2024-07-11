@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 // icons
 import Gallery from '../components/gallery';
 import TwitterFollowers from '../components/twitter';
+import LinkedinFollowers from '../components/linkedin';
 
 export default function Home() {
 
@@ -43,7 +44,7 @@ export default function Home() {
           <p className="text-gray-300 mb-4">
             Ironically, despite being in a hardware-heavy course, I have a strong passion for software development. My favorite language is Go Lang, and I love tinkering with hardware and electromagnets.
           </p>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-300 pb-5">
             Right now, I'm diving into a research project on wireless charging under the guidance of Professor Christopher Ho.            
           </p>
 
@@ -53,7 +54,7 @@ export default function Home() {
 
         <Gallery />
   
-        <div className="text-gray-200 py-5">
+        <div className="text-gray-300 pb-5 pt-10">
           <p>
             Over the past few years, I've been writing content on my blog, focusing on simplicity. You'll find posts about the technologies I'm currently interested in, as well as my career growth and learning experiences, sharing knowledge throughout the journey.
           </p>
@@ -61,15 +62,15 @@ export default function Home() {
 
         <div className="py-2">
           <a 
-            href="/blog/developer-experience" 
-            className="flex w-full items-center justify-between rounded border  px-3 py-4 border-neutral-700 bg-neutral-800"
+            href="https://www.lambdatest.com/blog/advanced-css-tutorial/" 
+            className="flex w-full items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800"
           >
             <div className="flex flex-col">
               <p className="font-medium text-neutral-50">
-                What Makes A Great Developer Experience?
+                Advanced CSS Tutorial: Level Up Your Web Development Skills
               </p>
               <p className="text-neutral-200">
-                51,975 views
+                110,405 views
               </p>
             </div>
             <div className="transform text-neutral-300 transition-transform duration-300 group-hover:-rotate-12">
@@ -91,15 +92,15 @@ export default function Home() {
 
         <div className="py-2">
           <a 
-            href="/blog/developer-experience" 
-            className="flex w-full items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800"
+            href="https://www.lambdatest.com/blog/css-gap-property" 
+            className="flex w-full items-center justify-between rounded border  px-3 py-4 border-neutral-700 bg-neutral-800"
           >
             <div className="flex flex-col">
               <p className="font-medium text-neutral-50">
-                What Makes A Great Developer Experience?
+              CSS Gap Property: A Beginners Guide To Perfectly Spaced Layouts
               </p>
               <p className="text-neutral-200">
-                51,975 views
+                274,823 Views
               </p>
             </div>
             <div className="transform text-neutral-300 transition-transform duration-300 group-hover:-rotate-12">
@@ -119,19 +120,23 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="text-gray-200 py-5">
+
+        <div className="text-gray-300 py-5">
           <p>
             Used to tweet tiny bits of my life as well. Feel free to follow :)
           </p>
         </div>
 
-        <TwitterFollowers />
+        <div className='flex flex-col md:flex-row gap-4'>
+          <TwitterFollowers />
+          <LinkedinFollowers />
+        </div>
 
 
         
         <div className="text-gray-200 pt-5">
           <h3 className="font-bold text-lg md:text-2xl tracking-tight py-2 text-gray-200">Some Fun Facts</h3>
-          <ul className='list-disc pl-5 text-gray-200'>
+          <ul className='list-disc pl-5 text-gray-300'>
             <li>I enjoy footballing (British football pls), hiking, blogging, organising clubs events</li>
             <li>I have a unique hobby: participating in hackathons. I plan to retire from this once I reach double-digit wins!</li>
           </ul>
@@ -185,6 +190,28 @@ export default function Home() {
               <p className="ml-2 h-7">contact me</p>
             </a>
           </li>
+          <li>
+            <a
+              className="flex items-center transition-all hover:text-neutral-100"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/dunyanong"
+            >
+              <svg
+                width={12}
+                height={12}
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <p className="ml-2 h-7">github</p>
+            </a>
+          </li>          
         </ul>
 
       </main>
