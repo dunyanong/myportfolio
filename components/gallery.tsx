@@ -15,25 +15,20 @@ const Gallery = () => {
   const [images] = useState([
     {
       url: dunyanTurkey,
-      // date: "Oct 27, 2019",
-      date: "",
-      
+      date: "Oct 2019",      
     },
     {
       url: physicReunion,
-      // date: "Jun 10, 2022",
-      date: ""
+      date: "Jun 2022",
     },    
     {
       url: sunwaymakeitchallenge,
-      // date: "Jun 6, 2024",
-      date: ""
+      date: "Jun 2024",
     },
     
     {
       url: soldering,
-      // date: "April 1, 2024", 
-      date: ""
+      date: "April 2024", 
            
     },
 
@@ -68,7 +63,7 @@ const Gallery = () => {
 
             {hoveredIndex === index && (                  
               <motion.div
-                className="absolute bottom-0 right-0 m-2 bg-opacity-50 rounded-lg p-2"
+                className="absolute top-0 left-0 m-2 bg-gray-900 rounded-lg px-2 py-1"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
